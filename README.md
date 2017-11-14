@@ -1,8 +1,26 @@
+
 // dev 
 
 
+## General intro 
 
-## Pull the data science environment (docker)
+
+
+## Tech 
+	- python 
+		- [python official intro](https://docs.python.org/3/tutorial/)<br>
+		- [python udacity ](https://www.udacity.com/course/introduction-to-python--ud1110)<br>
+		- [python codecademy](https://www.codecademy.com/learn/learn-python)<br>
+	- R 
+	- Javascript 
+
+## Statistics 
+
+## ML 
+
+## Best pracetices 
+
+## data science environment (docker)
 
 ```bash
 
