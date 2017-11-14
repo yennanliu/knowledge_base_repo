@@ -9,8 +9,8 @@
 ## Tech 
 	- python 
 		- [python official intro](https://docs.python.org/3/tutorial/)<br>
-		- [python udacity ](https://www.udacity.com/course/introduction-to-python--ud1110)<br>
-		- [python codecademy](https://www.codecademy.com/learn/learn-python)<br>
+		- [python udacity ](https://www.udacity.com/course/introduction-to-python--ud1110)
+		- [python codecademy](https://www.codecademy.com/learn/learn-python)
 	- R 
 	- Javascript 
 
