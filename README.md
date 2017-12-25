@@ -14,12 +14,12 @@
 
 ### R 
 ### Javascript 
-
 ## Statistics 
-
 ## ML 
+* [CS 229 Machine Learning](https://github.com/JWarmenhoven/Coursera-Machine-Learning) - Andrew Ng's ML exercises in ipython notebook 
 
-## Best pracetices 
+## Unix 
+
 
 ## data science environment (docker)
 
