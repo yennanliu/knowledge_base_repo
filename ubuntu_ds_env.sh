@@ -71,10 +71,48 @@ echo ""
 pip install sqlalchemy scrapy unittest pyvirtualdisplay beautifulsoup4 selenium
 
 
-echo "Installing web driver." 
+
+echo "Installing ChromeDriver 2.25.426924" 
 echo "###################################################"
-echo ""
-# dev 
+# install chrome driver here :
+# https://chromedriver.storage.googleapis.com/index.html
+# https://christopher.su/2015/selenium-chromedriver-ubuntu/
+
+sudo apt-get install unzip
+sudo apt-get install xvfb
+# move to te chrome driver directory 
+# unzip the file 
+wget -N http://chromedriver.storage.googleapis.com/2.25/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+chmod +x chromedriver
+sudo mv -f chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+
+
+
+echo "Installing Google Chrome 58.0.3029.110 " 
+echo "###################################################"
+# install google chrome app here :
+# https://www.slimjet.com/chrome/google-chrome-old-version.php
+# https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?viewmode=compact&topic_id=104960&forum=1
+
+# download needed packages 
+sudo apt-get install -f
+# download google chrome
+wget -N https://www.slimjet.com/chrome/download-chrome.php?file=lnx%2Fchrome64_58.0.3029.96.deb -O google-chrome-stable_current_amd64.deb 
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+# check chrome driver version 
+chromedriver
+# check google chrome app version 
+google-chrome --version
+
+
+
+
+
+
 
 
 
