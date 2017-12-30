@@ -27,6 +27,27 @@ echo "###################################################"
 echo ""
 
 
+echo "Installing ubuntu via parallel desktop (mac osx)"
+echo "plz via following link : "
+"""
+###################################################
+
+
+# install ubuntu iso 
+https://www.ubuntu.com/download/desktop
+
+# install parallel desktop (mac osx)
+https://itunes.apple.com/us/app/parallels-desktop-lite/id1085114709?mt=12
+
+# install extended tool  (after installing ubuntu via parallel desktop)
+# enable  file sharing between mac and ubuntu 
+# http://kb.parallels.com/en/114127 
+
+
+###################################################
+"""
+
+
 
 echo "Installing apt-get." 
 echo "###################################################"
