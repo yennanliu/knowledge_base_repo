@@ -1,12 +1,8 @@
 
-// dev 
-
-
 ## General intro 
 
-
 ---
-##  Programming 
+## Programming 
 ### python 
 * [python official intro](https://docs.python.org/3/tutorial/)
 * [python udacity](https://www.udacity.com/course/introduction-to-python--ud1110)
@@ -14,17 +10,16 @@
 
 ### R 
 ### Javascript 
----
 ## Statistics 
 ## ML 
 * [CS 229 Machine Learning](https://github.com/JWarmenhoven/Coursera-Machine-Learning) - Andrew Ng's ML exercises in ipython notebook 
----
+
 ## Unix 
----
 ## Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
 
----
+
+
 ## data science environment (docker)
 
 ```bash
