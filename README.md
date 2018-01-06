@@ -33,4 +33,13 @@ docker run -p 4000:80 yennanliu/ds_env:dev1
 
 ```
 
+## Ubuntu scrapper environment (docker)
+
+```bash
+
+#step 2  pull the docker image 
+docker run -p 4000:80 yennanliu/ubuntu_scrapper:V1 
+
+```
+
 
