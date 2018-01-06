@@ -18,7 +18,8 @@
 ## Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
 
-
+## Docker 
+* [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial)
 
 ## data science environment (docker)
 
