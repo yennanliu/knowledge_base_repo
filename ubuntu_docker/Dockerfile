@@ -31,8 +31,7 @@ rm -rf /var/lib/apt/lists/*
 
 RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
     wget --quiet https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh -O ~/anaconda.sh && \
-    /bin/bash ~/anaconda.sh -b -p /opt/conda && \
-    rm ~/Anaconda3-4.2.0-Linux-x86_64.sh
+    /bin/bash ~/anaconda.sh -b -p /opt/conda 
 
 
 ENV PATH /opt/conda/bin:$PATH
@@ -41,7 +40,6 @@ RUN pip3 --no-cache-dir install --upgrade \
         altair \
         sqlalchemy \
         scrapy \ 
-        unittest \ 
         pyvirtualdisplay \
         beautifulsoup4 \
         selenium \ 
@@ -57,8 +55,8 @@ ENV HOME=/docker_ubuntu_file
 ENV SHELL=/bin/bash
 VOLUME /docker_ubuntu_file
 WORKDIR /docker_ubuntu_file
-ADD run_jupyter.sh /docker_ubuntu_file/run_jupyter.sh
-RUN chmod +x /docker_ubuntu_file/run_jupyter.sh
+#ADD run_jupyter.sh /docker_ubuntu_file/run_jupyter.sh
+#RUN chmod +x /docker_ubuntu_file/run_jupyter.sh
 
 # Run the shell
-CMD  ["./run_jupyter.sh"]
+#CMD  ["./run_jupyter.sh"]
