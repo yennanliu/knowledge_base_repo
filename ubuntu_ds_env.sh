@@ -42,7 +42,8 @@ https://itunes.apple.com/us/app/parallels-desktop-lite/id1085114709?mt=12
 # install extended tool  (after installing ubuntu via parallel desktop)
 # enable  file sharing between mac and ubuntu 
 # http://kb.parallels.com/en/114127 
-
+# In Mac menu bar go to Actions > Install Parallels Tools.
+# http://kb.parallels.com/115835
 
 ###################################################
 """
