@@ -48,7 +48,8 @@ https://itunes.apple.com/us/app/parallels-desktop-lite/id1085114709?mt=12
 ###################################################
 """
 
-
+echo "check ubuntu version"
+lsb_release -a
 
 echo "Installing apt-get." 
 echo "###################################################"
