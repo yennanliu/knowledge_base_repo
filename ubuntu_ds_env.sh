@@ -68,7 +68,8 @@ bash Anaconda3-4.2.0-Linux-x86_64.sh
 rm Anaconda3-4.2.0-Linux-x86_64.sh
 echo ""
 cd
-echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc 
+echo 'export anaconda env variable (python 3)'
+export PATH=~/anaconda3/bin:$PATH
 echo ""
 # Refresh basically
 source .bashrc
