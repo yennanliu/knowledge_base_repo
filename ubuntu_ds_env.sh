@@ -64,7 +64,7 @@ echo ""
 # via  https://repo.continuum.io/archive/
 cd ~ 
 wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
-bash Anaconda3-4.2.0-Linux-x86_64.sh -b -p /opt/anaconda3
+bash Anaconda3-4.2.0-Linux-x86_64.sh
 rm Anaconda3-4.2.0-Linux-x86_64.sh
 echo ""
 cd
