@@ -14,6 +14,9 @@
 ## ML 
 * [CS 229 Machine Learning](https://github.com/JWarmenhoven/Coursera-Machine-Learning) - Andrew Ng's ML exercises in ipython notebook 
 
+## DL 
+* [Udemy lazy-programmer/](https://www.udemy.com/user/lazy-programmer/) - Deep learning, AI course sets
+
 ## Unix 
 ## Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
