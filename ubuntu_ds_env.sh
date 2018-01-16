@@ -92,7 +92,7 @@ echo "Installing python scraping packages."
 echo "###################################################"
 echo ""
 
-pip install sqlalchemy scrapy unittest pyvirtualdisplay beautifulsoup4 selenium
+pip install sqlalchemy scrapy pyvirtualdisplay beautifulsoup4 selenium
 
 
 
