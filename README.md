@@ -1,5 +1,13 @@
 
-## General intro 
+## Intro 
+
+Reference | Comments  
+------------ | -------------
+Programming | Python / R / Shell / Javascript / Java  
+Machine Learning  | ML / DL 
+AWS | dev 
+Docker |  dev 
+
 
 ---
 ## Programming 
