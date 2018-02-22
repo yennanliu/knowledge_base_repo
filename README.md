@@ -5,6 +5,7 @@ Reference | Comments
 ------------ | -------------
 Programming | Python / R / Shell / Javascript / Java  
 Machine Learning  | ML / DL 
+Statistics | dev 
 AWS | dev 
 Docker |  dev 
 
@@ -17,7 +18,7 @@ Docker |  dev
 * [python codecademy](https://www.codecademy.com/learn/learn-python)
 
 ### R 
-* [dev]
+* [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
 ### Javascript 
 * [dev]
 ## Statistics 
@@ -26,8 +27,8 @@ Docker |  dev
 * [CS 229 Machine Learning](https://github.com/JWarmenhoven/Coursera-Machine-Learning) - Andrew Ng's ML exercises in ipython notebook 
 
 ## DL 
-* [Udemy lazy-programmer/](https://www.deeplearning.ai/) - Andrew Ng's DL courses set 
-* [Udemy lazy-programmer/](https://www.udemy.com/user/lazy-programmer/) - Deep learning, AI course sets
+* [Deep Learngin Specialization](https://www.deeplearning.ai/) - Andrew Ng's DL courses set 
+* [Udemy lazy-programmer](https://www.udemy.com/user/lazy-programmer/) - Deep learning, AI course sets
 
 ## Unix 
 ## Computer Science 
