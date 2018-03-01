@@ -54,8 +54,7 @@ Docker |  dev
 * [Udemy lazy-programmer](https://www.udemy.com/user/lazy-programmer/) - Deep learning, AI course sets
 * [MIT 6.S094: Deep Learning](https://www.youtube.com/watch?v=-6INDaLcuJY) - MIT DL course for self-driving cars 
 
-* [Deep Learning Online Book](http://www.deeplearningbook.org/) - An MIT Press book
-- Ian Goodfellow and Yoshua Bengio and Aaron Courville
+* [Deep Learning Online Book](http://www.deeplearningbook.org/) - An MIT Press book : Ian Goodfellow and Yoshua Bengio and Aaron Courville
 
 * [Fast.ai](http://www.fast.ai/) - Awesome DL Tutorial
 
