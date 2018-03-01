@@ -47,15 +47,14 @@ Docker |  dev
 * [CS 229 Machine Learning ](https://www.coursera.org/learn/machine-learning) - Andrew Ng's ML course 
 * [CS 229 Machine Learning nb](https://github.com/JWarmenhoven/Coursera-Machine-Learning) - Andrew Ng's ML exercises in ipython notebook 
 * [Scikit-learn intro ](http://blog.kaggle.com/author/kevin-markham/) - Popular ML API video
+* [Google ML intro ](https://developers.google.com/machine-learning/crash-course/) - Google's fast-paced, practical introduction to machine learning with TensorFlow APIs
 * [ML FAQ](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/?utm_content=buffer12fc1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) - 40 Interview Questions asked at Startups in Machine Learning / Data Science
 
 ## DL 
 * [Deep Learning Specialization](https://www.deeplearning.ai/) - Andrew Ng's DL courses set 
 * [Udemy lazy-programmer](https://www.udemy.com/user/lazy-programmer/) - Deep learning, AI course sets
 * [MIT 6.S094: Deep Learning](https://www.youtube.com/watch?v=-6INDaLcuJY) - MIT DL course for self-driving cars 
-
 * [Deep Learning Online Book](http://www.deeplearningbook.org/) - An MIT Press book : Ian Goodfellow and Yoshua Bengio and Aaron Courville
-
 * [Fast.ai](http://www.fast.ai/) - Awesome DL Tutorial
 
 
