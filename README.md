@@ -53,6 +53,7 @@ Docker |  dev
 
 ## DL 
 * [Deep Learning Specialization](https://www.deeplearning.ai/) - Andrew Ng's DL courses set 
+* [Deep Learning nb](https://github.com/rvarun7777/Deep_Learning) - Andrew Ng's DL courses assignment notebook reference
 * [Udemy lazy-programmer](https://www.udemy.com/user/lazy-programmer/) - Deep learning, AI course sets
 * [MIT 6.S094: Deep Learning](https://www.youtube.com/watch?v=-6INDaLcuJY) - MIT DL course for self-driving cars 
 * [Deep Learning Online Book](http://www.deeplearningbook.org/) - An MIT Press book : Ian Goodfellow and Yoshua Bengio and Aaron Courville
