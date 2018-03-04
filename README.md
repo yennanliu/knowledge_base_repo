@@ -58,6 +58,11 @@ Docker |  dev
 * [MIT 6.S094: Deep Learning](https://www.youtube.com/watch?v=-6INDaLcuJY) - MIT DL course for self-driving cars 
 * [Deep Learning Online Book](http://www.deeplearningbook.org/) - An MIT Press book : Ian Goodfellow and Yoshua Bengio and Aaron Courville
 * [Fast.ai](http://www.fast.ai/) - Awesome DL Tutorial
+* [neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com/index.html) - DL online book in  math/physics style 
+* [Siraj Raval sets](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A) - My favorite DL/ML youtuber 
+* [Morvan-Python](https://morvanzhou.github.io/) - Another awesome DL/ML tutorial in Mandarin 
+
+
 
 
 ## AWS 
