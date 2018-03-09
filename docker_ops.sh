@@ -32,6 +32,13 @@ docker commit <comtainer_name> yennanliu/<docker_name>:<version>
 docker push <docker_account>/<docker_name>:<version>
 
 
+# -- list all available dockers 
+docker ps -a 
+
+
+# -- re-run docker 
+#docker run -it mac_ds_env /bin/bash
+docker run -it <docker_name> /bin/bash
 
 
 
