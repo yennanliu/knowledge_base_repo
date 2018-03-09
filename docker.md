@@ -177,7 +177,34 @@ v1: digest: sha256:69691b690fed44d8256d337cccdbab6700b34e22b54e351739a364fc9dd88
 ```
 
 
+#### Step 2) Re-run 
+```bash
+(ds_dash) yennanliu@yennanliude-MacBook-Pro:~/data_science_repo/mac_ds_docker$ docker ps -a 
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                          PORTS               NAMES
+a65e0435c5f3        mac_ds_env          "python3"           2 minutes ago       Exited (0) About a minute ago                       happy_stonebraker
+d6174c888949        mac_ds_env          "python3"           2 minutes ago       Exited (0) 2 minutes ago                            prickly_fermat
+b10721635956        mac_ds_env          "python3"           24 minutes ago      Exited (0) 24 minutes ago                           mac_ds_env
+(ds_dash) yennanliu@yennanliude-MacBook-Pro:~/data_science_repo/mac_ds_docker$ docker run -it mac_ds_env
+Python 3.5.5 (default, Feb 17 2018, 09:37:53) 
+[GCC 4.9.2] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
 
+(ds_dash) yennanliu@yennanliude-MacBook-Pro:~/data_science_repo/mac_ds_docker$ docker run -it mac_ds_env /bin/bash
+root@e7c35ee466c5:/workspace# 
+root@e7c35ee466c5:/workspace# 
+root@e7c35ee466c5:/workspace# ls 
+root@e7c35ee466c5:/workspace# pwd
+/workspace
+root@e7c35ee466c5:/workspace# cd ..
+root@e7c35ee466c5:/# ls
+app  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  workspace
+root@e7c35ee466c5:/# which python 
+/usr/local/bin/python
+root@e7c35ee466c5:/# 
+
+
+```
 
 
 
