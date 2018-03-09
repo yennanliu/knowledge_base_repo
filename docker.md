@@ -177,7 +177,7 @@ v1: digest: sha256:69691b690fed44d8256d337cccdbab6700b34e22b54e351739a364fc9dd88
 ```
 
 
-#### Step 2) Re-run 
+#### Step 5) Re-run 
 ```bash
 (ds_dash) yennanliu@yennanliude-MacBook-Pro:~/data_science_repo/mac_ds_docker$ docker ps -a 
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                          PORTS               NAMES
