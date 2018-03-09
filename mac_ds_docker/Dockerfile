@@ -4,7 +4,6 @@
 
 
 
-CMD [echo 'start install env....']
 FROM python:3.5
 
 # -- set working directions 
