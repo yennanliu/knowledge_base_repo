@@ -28,6 +28,7 @@ EXPOSE 80
 
 # -- when Docker run, execute the app.py automatically 
 #CMD ["python", "app.py"]
+#CMD ["/bin/bash"]
 
 
 
