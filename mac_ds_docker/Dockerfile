@@ -34,9 +34,12 @@ RUN pip3 install tensorflow pillow h5py keras
 RUN pip3 install beautifulsoup4 psycopg2 SQLAlchemy urllib3 Scrapy selenium
 
 
-########## R ##########
 
-RUN /install_R.sh
+########## R ##########
+#RUN mkdir -p /opt
+#ADD install_R.sh /opt/
+#RUN chmod +x /opt/install_R.sh
+#RUN /opt/install_R.sh
 
 
 
