@@ -3,6 +3,16 @@
 ### todo : install python via anaconda ###
 
 
+# install Homebrew 
+
+#RUN ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+# clean and update sources
+#RUN apt-get clean && apt-get update
+
+
+########## python ##########
 
 FROM python:3.5
 
@@ -14,12 +24,20 @@ WORKDIR /workspace
 ADD . /app
 
 # -- install packages
-# analysis, ML 
-RUN pip3 install numpy scipy pandas matplotlib scikit-learn seaborn jupyter
+# analysis 
+RUN pip3 install numpy scipy pandas matplotlib seaborn jupyter
+# ML
+RUN pip3 install scikit-learn 
 # DL
 RUN pip3 install tensorflow pillow h5py keras 
 # ops 
 RUN pip3 install beautifulsoup4 psycopg2 SQLAlchemy urllib3 Scrapy selenium
+
+
+########## R ##########
+
+RUN /install_R.sh
+
 
 
 # -- set 80 port forDocker connection 
@@ -31,6 +49,11 @@ EXPOSE 80
 # -- when Docker run, execute the app.py automatically 
 #CMD ["python", "app.py"]
 #CMD ["/bin/bash"]
+
+
+
+
+
 
 
 
