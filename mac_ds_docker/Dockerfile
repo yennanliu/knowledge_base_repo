@@ -15,11 +15,11 @@ ADD . /app
 
 # -- install packages
 # analysis, ML 
-RUN pip3 install numpy scipy pandas matplotlib scikit-learn seaborn
+RUN pip3 install numpy scipy pandas matplotlib scikit-learn seaborn jupyter
 # DL
 RUN pip3 install tensorflow pillow h5py keras 
 # ops 
-RUN pip3 install beautifulsoup4 psycopg2 SQLAlchemy urllib3
+RUN pip3 install beautifulsoup4 psycopg2 SQLAlchemy urllib3 Scrapy selenium
 
 
 # -- set 80 port forDocker connection 
