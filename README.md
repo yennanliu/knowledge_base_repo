@@ -61,6 +61,7 @@ Docker |  dev
 * [neuralnetworksanddeeplearning.com](http://neuralnetworksanddeeplearning.com/index.html) - DL online book in  math/physics style 
 * [Siraj Raval sets](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A) - My favorite DL/ML youtuber 
 * [Morvan-Python](https://morvanzhou.github.io/) - Another awesome DL/ML tutorial in Mandarin 
+* [Kaggle-Learn](https://www.kaggle.com/learn/overview) - Hands-On Data Science Education on Kaggle 
 
 
 
