@@ -33,8 +33,8 @@ Docker |  dev
 
 ### Shell & Linux 
 * [Intro to Linux/Unix](https://www.tutorialspoint.com/unix/index.htm)
-
-
+* [Command line Challenge](https://cmdchallenge.com/#/hello_world
+)
 ### Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
 * [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
