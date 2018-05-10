@@ -42,7 +42,8 @@ Docker |  dev
 
 ## Statistics 
 * [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
-
+* [intro2stats](https://github.com/rouseguy/intro2stats)
+* [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
 
 ## ML 
 * [CS 229 Machine Learning ](https://www.coursera.org/learn/machine-learning) - Andrew Ng's ML course 
