@@ -63,6 +63,7 @@ Docker |  dev
 * [Siraj Raval sets](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A) - My favorite DL/ML youtuber 
 * [Morvan-Python](https://morvanzhou.github.io/) - Another awesome DL/ML tutorial in Mandarin 
 * [Kaggle-Learn](https://www.kaggle.com/learn/overview) - Hands-On Data Science Education on Kaggle 
+* [CS4705 NLP](http://www.cs.columbia.edu/~cs4705/) - Michael Collins's NLP course
 
 
 
