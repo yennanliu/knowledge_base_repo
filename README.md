@@ -38,6 +38,7 @@ Docker |  dev
 ### Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
 * [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
+* [Leetcode](https://github.com/yennanliu/CS_basics)
 
 
 ## Statistics 
