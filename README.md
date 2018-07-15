@@ -5,7 +5,8 @@ Reference | Comments
 ------------ | -------------
 Programming | Python / R / Shell & Linux / Javascript / Java  
 Machine Learning  | ML / DL 
-Statistics | dev 
+Statistics | dev
+Database  |  RDBMS / NoSQL  
 AWS | dev 
 Docker |  dev 
 
@@ -65,6 +66,11 @@ Docker |  dev
 * [Morvan-Python](https://morvanzhou.github.io/) - Another awesome DL/ML tutorial in Mandarin 
 * [Kaggle-Learn](https://www.kaggle.com/learn/overview) - Hands-On Data Science Education on Kaggle 
 * [CS4705 NLP](http://www.cs.columbia.edu/~cs4705/) - Michael Collins's NLP course
+
+## Database 
+* [Laundch school Posgre course](https://launchschool.com/books/sql_first_edition/read/types) - DATABASE DESIGN AND PERFORMANCE
+
+
 
 
 
