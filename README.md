@@ -5,10 +5,13 @@ Reference | Comments
 ------------ | -------------
 Programming | Python / R / Shell & Linux / Javascript / Java  
 Machine Learning  | ML / DL 
-Statistics | dev
+Statistics | Statistics Learning / Probability 
 Database  |  RDBMS / NoSQL  
 AWS | dev 
 Docker |  dev 
+System Design |  dev 
+Case Study |  dev 
+
 
 
 ---
@@ -46,6 +49,7 @@ Docker |  dev
 * [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
 * [intro2stats](https://github.com/rouseguy/intro2stats)
 * [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
+* [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
 
 ## ML 
 * [CS 229 Machine Learning ](https://www.coursera.org/learn/machine-learning) - Andrew Ng's ML course 
@@ -69,6 +73,11 @@ Docker |  dev
 
 ## Database 
 * [Laundch school Posgre course](https://launchschool.com/books/sql_first_edition/read/types) - DATABASE DESIGN AND PERFORMANCE
+* [Database Structure and Design Tutorial ](https://www.lucidchart.com/pages/database-diagram/database-design) - database-design
+* [PostgreSQL Intro](https://www.tutorialspoint.com/postgresql/postgresql_functions.htm) - PostgreSQL Tutorial
+
+
+
 
 
 
