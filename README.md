@@ -10,6 +10,7 @@ Database  |  RDBMS / NoSQL
 AWS | dev 
 Docker |  dev 
 System Design |  dev 
+Scalable   | dev 
 Case Study |  dev 
 
 
@@ -58,6 +59,8 @@ Case Study |  dev
 * [Google ML intro ](https://developers.google.com/machine-learning/crash-course/) - Google's fast-paced, practical introduction to machine learning with TensorFlow APIs
 * [ML FAQ](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/?utm_content=buffer12fc1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) - 40 Interview Questions asked at Startups in Machine Learning / Data Science
 
+
+
 ## DL 
 * [Deep Learning Specialization](https://www.deeplearning.ai/) - Andrew Ng's DL courses set 
 * [Deep Learning nb](https://github.com/rvarun7777/Deep_Learning) - Andrew Ng's DL courses assignment notebook reference
@@ -77,7 +80,8 @@ Case Study |  dev
 * [PostgreSQL Intro](https://www.tutorialspoint.com/postgresql/postgresql_functions.htm) - PostgreSQL Tutorial
 
 
-
+## Scalable
+* [Mining of Massive Datasets](http://www.mmds.org/) - Stanford Computer Science course CS246: Mining Massive Datasets (and CS345A: Data Mining).
 
 
 
