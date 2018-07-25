@@ -8,9 +8,11 @@ Machine Learning  | ML / DL
 Statistics | Statistics Learning / Probability 
 Database  |  RDBMS / NoSQL  
 AWS | dev 
+GCP | dev 
 Docker |  dev 
 System Design |  dev 
-Scalable   | dev 
+Scalable   | dev
+Streaming   | dev 
 Case Study |  dev 
 
 
@@ -83,7 +85,10 @@ Case Study |  dev
 ## Scalable
 * [Mining of Massive Datasets](http://www.mmds.org/) - Stanford Computer Science course CS246: Mining Massive Datasets (and CS345A: Data Mining).
 
-
+## Streaming
+* [Real-time syslog Processing](https://www.confluent.io/blog/real-time-syslog-processing-apache-kafka-ksql-part-1-filtering) - eal-time syslog Processing with Apache Kafka and KSQL
+* [Real-time Stock Data Pipeline](https://github.com/LuQQiu/DataPipeline) - real-time pipeline with python, kafka, Zookeeper, Cassandra, Spark, Redis, Docker, Node.js 
+* [Real-time streaming Pipeline with twitter data and GCP](https://www.datareply.co.uk/blog/2018/5/23/realtime-streaming-data-pipeline-using-google-cloud-platform-and-bokeh) - Realtime Streaming Data Pipeline using Google Cloud Platform and Bokeh
 
 
 
