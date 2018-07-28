@@ -80,6 +80,9 @@ Case Study |  dev
 * [Laundch school Posgre course](https://launchschool.com/books/sql_first_edition/read/types) - DATABASE DESIGN AND PERFORMANCE
 * [Database Structure and Design Tutorial ](https://www.lucidchart.com/pages/database-diagram/database-design) - database-design
 * [PostgreSQL Intro](https://www.tutorialspoint.com/postgresql/postgresql_functions.htm) - PostgreSQL Tutorial
+* [Dataquest DE](https://www.dataquest.io/path/data-engineer
+) - data-engineer Tutorial
+
 
 
 ## Scalable
@@ -89,6 +92,18 @@ Case Study |  dev
 * [Real-time syslog Processing](https://www.confluent.io/blog/real-time-syslog-processing-apache-kafka-ksql-part-1-filtering) - eal-time syslog Processing with Apache Kafka and KSQL
 * [Real-time Stock Data Pipeline](https://github.com/LuQQiu/DataPipeline) - real-time pipeline with python, kafka, Zookeeper, Cassandra, Spark, Redis, Docker, Node.js 
 * [Real-time streaming Pipeline with twitter data and GCP](https://www.datareply.co.uk/blog/2018/5/23/realtime-streaming-data-pipeline-using-google-cloud-platform-and-bokeh) - Realtime Streaming Data Pipeline using Google Cloud Platform and Bokeh
+* [kafka to tranform a batch pipeline to real time one](https://medium.com/@stephane.maarek/how-to-use-apache-kafka-to-transform-a-batch-pipeline-into-a-real-time-one-831b48a6ad85
+) - Using Apache Kafka Java
+* [Analytics Pipeline @ Lyst](https://cdn.oreillystatic.com/en/assets/1/event/269/Lyft_s%20analytics%20pipeline_%20From%20Redshift%20to%20Apache%20Hive%20and%20Presto%20Presentation.pdf) - Lyst data science infra
+* [Build a Real-time Stream Processing Pipeline with Apache Flink on AWS](https://www.youtube.com/watch?v=tmdEe3jpUX8
+) - AWS pipeline
+
+
+
+
+## Case Study
+* [A/B testing on deliveroo](https://deliveroo.engineering/2016/09/19/ab-testing-cdns.html
+) Running A/B tests on our hosting infrastructure
 
 
 
