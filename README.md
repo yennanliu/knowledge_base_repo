@@ -97,6 +97,12 @@ Case Study |  dev
 * [Analytics Pipeline @ Lyst](https://cdn.oreillystatic.com/en/assets/1/event/269/Lyft_s%20analytics%20pipeline_%20From%20Redshift%20to%20Apache%20Hive%20and%20Presto%20Presentation.pdf) - Lyst data science infra
 * [Build a Real-time Stream Processing Pipeline with Apache Flink on AWS](https://www.youtube.com/watch?v=tmdEe3jpUX8
 ) - AWS pipeline
+* [Netflix real time pipeline](https://www.infoq.com/articles/netflix-migrating-stream-processing) - Migrating Batch ETL to Stream Processing: A Netflix Case Study with Kafka and Flink
+* [Evolution of Netflix data pipeline](https://medium.com/netflix-techblog/evolution-of-the-netflix-data-pipeline-da246ca36905
+) - evolution-of-the-netflix-data-pipeline
+* [Airstream at airbnb](https://databricks.com/session/airstream-spark-streaming-at-airbnb) - spark-streaming-at-airbnb
+
+
 
 
 
@@ -104,7 +110,9 @@ Case Study |  dev
 ## Case Study
 * [A/B testing on deliveroo](https://deliveroo.engineering/2016/09/19/ab-testing-cdns.html
 ) Running A/B tests on our hosting infrastructure
-
+* [Architecture Of Giants Data Stacks](
+https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
+) Architecture (data) @ Netflix/Airbnb/Twitter..
 
 
 
