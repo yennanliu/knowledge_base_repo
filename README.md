@@ -53,6 +53,9 @@ Case Study |  dev
 * [intro2stats](https://github.com/rouseguy/intro2stats)
 * [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
 * [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
+* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/
+)
+
 
 ## ML 
 * [CS 229 Machine Learning ](https://www.coursera.org/learn/machine-learning) - Andrew Ng's ML course 
