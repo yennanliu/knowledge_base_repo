@@ -63,7 +63,7 @@ Case Study |  dev
 * [Scikit-learn intro ](http://blog.kaggle.com/author/kevin-markham/) - Popular ML API video
 * [Google ML intro ](https://developers.google.com/machine-learning/crash-course/) - Google's fast-paced, practical introduction to machine learning with TensorFlow APIs
 * [ML FAQ](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/?utm_content=buffer12fc1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) - 40 Interview Questions asked at Startups in Machine Learning / Data Science
-
+* [Almost All ML Problem Approach](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/) - Kaggle post about practical ML problem approaches 
 
 
 ## DL 
