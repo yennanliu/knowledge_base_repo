@@ -78,6 +78,7 @@ Case Study |  dev
 * [Morvan-Python](https://morvanzhou.github.io/) - Another awesome DL/ML tutorial in Mandarin 
 * [Kaggle-Learn](https://www.kaggle.com/learn/overview) - Hands-On Data Science Education on Kaggle 
 * [CS4705 NLP](http://www.cs.columbia.edu/~cs4705/) - Michael Collins's NLP course
+* [Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba) - Math explaination DL  
 
 ## Database 
 * [Laundch school Posgre course](https://launchschool.com/books/sql_first_edition/read/types) - DATABASE DESIGN AND PERFORMANCE
@@ -117,7 +118,9 @@ Case Study |  dev
 https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
 ) Architecture (data) @ Netflix/Airbnb/Twitter..
 
-
+## Others resorces 
+* [Towards Data Science](https://towardsdatascience.com/)  
+* [Thepudding](https://pudding.cool/) 
 
 ## AWS 
 * [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
