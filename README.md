@@ -121,6 +121,9 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 ## Others resorces 
 * [Towards Data Science](https://towardsdatascience.com/)  
 * [Thepudding](https://pudding.cool/) 
+* [Quantopian](https://www.quantopian.com/home) 
+
+
 
 ## AWS 
 * [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
