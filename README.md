@@ -30,8 +30,9 @@ Case Study |  dev
 
 ### Javascript 
 * [Intro to Javascript](https://www.w3schools.com/js/)
+* [Codecademy Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
 * [Intro to Node.Js](https://www.w3schools.com/nodejs/default.asp)
-
+* [Jquery VS Javascript](http://youmightnotneedjquery.com/)
 
 ### Java
 * [Codecademy Java](https://www.codecademy.com/learn/learn-java)
