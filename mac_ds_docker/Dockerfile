@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y libgtk2.0-dev && \
     /opt/conda/bin/conda install -c menpo opencv3 -y && \
     /opt/conda/bin/conda install numpy pandas scikit-learn matplotlib seaborn pyyaml h5py keras -y && \
     /opt/conda/bin/conda upgrade dask && \
-    pip install tensorflow imutils
+    pip install tensorflow imutils numpy scipy pandas matplotlib seaborn
 
 
 #############  run commands  ################
