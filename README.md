@@ -132,23 +132,52 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 ## Docker 
 * [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial)
 
-### Data science environment (docker)
+
+### Local data science ML environment (docker)
 
 ```bash
 
-# step 1  install docker 
-https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
-https://hub.docker.com/r/yennanliu/mac_ds_ml_env/
+# step 1  install docker
+
+#https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
+#https://hub.docker.com/r/yennanliu/mac_ds_ml_env/
+
 # step 2  pull the docker image 
 docker pull yennanliu/mac_ds_ml_env
 
+# step 3 list all docker 
+docker ps 
+
+# step 4 launch the access the docker env 
+docker run -it mac_ds_ml_env
+
 ```
 
-### Ubuntu scrapper environment (docker)
+### Local data science DL environment (docker)
 
 ```bash
+# dev 
+
+```
+
+
+### Local data engineer environment (docker)
+
+```bash
+# dev 
+
+```
+
+### Ubuntu Scrapper environment (docker)
+
+```bash
+
 # pull the docker image 
-docker run -p 4000:80 yennanliu/ubuntu_scrapper:V1 
+#docker run -p 4000:80 yennanliu/ubuntu_scrapper:V1 
+docker pull yennanliu/ubuntu_scrapper
+# run docker env 
+docker run -it ubuntu_scrapper
+
 ```
 
 
