@@ -135,10 +135,13 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 ### Data science environment (docker)
 
 ```bash
+
 # step 1  install docker 
 https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
+https://hub.docker.com/r/yennanliu/mac_ds_ml_env/
 # step 2  pull the docker image 
-docker run -p 4000:80 yennanliu/ds_env:dev1 
+docker pull yennanliu/mac_ds_ml_env
+
 ```
 
 ### Ubuntu scrapper environment (docker)
