@@ -142,8 +142,9 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 #https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
 #https://hub.docker.com/r/yennanliu/mac_ds_ml_env/
 
-# step 2  pull the docker image 
-docker pull yennanliu/mac_ds_ml_env
+# step 2  pull the docker image
+# https://stackoverflow.com/questions/45952630/error-response-from-daemon-manifest-for-ibmblockchain-fabric-peerlatest-not-fo 
+docker pull yennanliu/mac_ds_ml_env:v1
 
 # step 3 list all docker 
 docker ps 
