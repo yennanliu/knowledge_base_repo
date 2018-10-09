@@ -146,11 +146,17 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 # https://stackoverflow.com/questions/45952630/error-response-from-daemon-manifest-for-ibmblockchain-fabric-peerlatest-not-fo 
 docker pull yennanliu/mac_ds_ml_env:v1
 
-# step 3 list all docker 
+# step 3
+# list all containers 
+docker images 
+# list all dockers 
 docker ps 
 
-# step 4 launch the access the docker env 
-docker run -it mac_ds_ml_env
+# step 4 
+# launch container 
+docker run  mac_ds_ml_env:v1 
+# run image 
+docker run -it mac_ds_ml_env:v1 
 
 ```
 
