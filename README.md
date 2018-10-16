@@ -89,6 +89,11 @@ Case Study |  dev
 ) - data-engineer Tutorial
 
 
+## ETL 
+* [Airflow doc.](https://airflow.apache.org/) - Airflow Documentation
+* [Astronomer doc.](https://www.astronomer.io/guides/) - Astronomer is a data engineering platform that helps you get up and running with Apache Airflow in minutes
+* [Astronomer CLI](https://github.com/astronomerio/astro-cli) - Astronomer command line repo
+
 
 ## Scalable
 * [Mining of Massive Datasets](http://www.mmds.org/) - Stanford Computer Science course CS246: Mining Massive Datasets (and CS345A: Data Mining).
