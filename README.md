@@ -159,9 +159,9 @@ docker ps
 
 # step 4 
 # launch container 
-docker run  mac_ds_ml_env:v1 
+docker run  yennanliu/mac_ds_ml_env:v1 
 # run image 
-docker run -it mac_ds_ml_env:v1 
+docker run -it yennanliu/mac_ds_ml_env:v1 bash 
 
 ```
 
@@ -188,7 +188,7 @@ docker run -it mac_ds_ml_env:v1
 #docker run -p 4000:80 yennanliu/ubuntu_scrapper:V1 
 docker pull yennanliu/ubuntu_scrapper
 # run docker env 
-docker run -it ubuntu_scrapper
+docker run -it yennanliu/ubuntu_scrapper bash 
 
 ```
 
