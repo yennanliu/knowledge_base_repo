@@ -136,6 +136,8 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 
 ## Docker 
 * [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial)
+* [docker-workshop - Set up DB Docker](https://github.com/InsightDataScience/docker-workshop/blob/master/chapter3/README.md)
+
 
 
 ### Local data science ML environment (docker)
@@ -177,6 +179,7 @@ docker run -it yennanliu/mac_ds_ml_env:v1 bash
 
 ```bash
 # dev 
+# https://github.com/InsightDataScience/docker-workshop
 
 ```
 
