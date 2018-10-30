@@ -181,6 +181,13 @@ docker run -it yennanliu/mac_ds_ml_env:v1 bash
 # dev 
 # https://github.com/InsightDataScience/docker-workshop
 
+docker pull yennanliu/mac_de_env:v1 
+docker images 
+docker ps 
+docker run  yennanliu/mac_de_env:v1 
+# run image 
+docker run -it yennanliu/mac_de_env:v1 bash 
+
 ```
 
 ### Ubuntu Scrapper environment (docker)
