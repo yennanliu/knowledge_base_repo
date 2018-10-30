@@ -1,3 +1,50 @@
 
+# Build local DE env on mac OS X 
+# start with  anaconda3 python 3
+
 # ref 
+# https://blog.codeship.com/using-docker-compose-for-python-development/
 # https://github.com/big-data-europe/docker-spark
+
+
+#############  install anaconda3 ################
+
+FROM continuumio/anaconda3
+MAINTAINER "yen"
+
+#############  install library ################
+
+RUN apt-get update && apt-get install \ 
+    build-base \
+    postgresql \
+    postgresql-dev \
+    libpq
+
+
+RUN apt-get update && apt-get install -y libgtk2.0-dev && \
+    rm -rf /var/lib/apt/lists/* && \
+    /opt/conda/bin/conda install jupyter -y && \
+    /opt/conda/bin/conda install numpy pandas scikit-learn imutils scipy pyyaml && \
+    /opt/conda/bin/conda upgrade dask && \
+    pip install psycopg2 
+
+
+#############  run commands  ################
+
+
+
+#############  set up DBs  ################
+
+
+# dev 
+
+
+
+
+
+
+
+
+
+
+
