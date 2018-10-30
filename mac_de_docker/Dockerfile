@@ -14,17 +14,13 @@ MAINTAINER "yen"
 
 #############  install library ################
 
-RUN apt-get update && apt-get install \ 
-    build-base \
-    postgresql \
-    postgresql-dev \
-    libpq
+RUN apt-get update && apt-get install -y postgresql 
 
 
 RUN apt-get update && apt-get install -y libgtk2.0-dev && \
     rm -rf /var/lib/apt/lists/* && \
     /opt/conda/bin/conda install jupyter -y && \
-    /opt/conda/bin/conda install numpy pandas scikit-learn imutils scipy pyyaml && \
+    /opt/conda/bin/conda install numpy pandas scikit-learn scipy pyyaml && \
     /opt/conda/bin/conda upgrade dask && \
     pip install psycopg2 
 
