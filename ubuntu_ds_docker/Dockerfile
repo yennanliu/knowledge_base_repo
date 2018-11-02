@@ -3,7 +3,8 @@ FROM ubuntu
 # Install Ruby.
 RUN \
   apt-get update && \
-  apt-get install -y ruby
+  apt-get install -y ruby\
+  apt-get install wget
 
 RUN apt-get update
 
