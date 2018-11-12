@@ -14,7 +14,12 @@ MAINTAINER "yen"
 
 #############  install library ################
 
-RUN apt-get update && apt-get install -y postgresql 
+RUN \
+	apt-get update && \
+	apt-get install -y postgresql && \
+	apt-get install -y openjdk-8-jdk && \
+	rm -rf /var/lib/apt/lists/*
+
 
 
 RUN apt-get update && apt-get install -y libgtk2.0-dev && apt-get install wget\
@@ -22,11 +27,24 @@ RUN apt-get update && apt-get install -y libgtk2.0-dev && apt-get install wget\
     /opt/conda/bin/conda install jupyter -y && \
     /opt/conda/bin/conda install numpy pandas scikit-learn scipy pyyaml && \
     /opt/conda/bin/conda upgrade dask && \
-    pip install psycopg2 
+    pip install psycopg2  && \
+    pip install pyspark
+
+
+
+
+
+#############  Define working directory  ################
+
+WORKDIR /data
+
+############# Define default command ################
+
+CMD ["bash"]
+
 
 
 #############  run commands  ################
-
 
 
 #############  set up DBs  ################
