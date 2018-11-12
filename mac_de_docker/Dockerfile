@@ -35,12 +35,9 @@ RUN apt-get update && apt-get install -y libgtk2.0-dev && apt-get install wget &
 
 #############  Define working directory  ################
 
-WORKDIR /data
+
 
 ############# Define default command ################
-
-CMD ["bash"]
-
 
 
 #############  run commands  ################
