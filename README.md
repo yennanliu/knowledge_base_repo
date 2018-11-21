@@ -7,12 +7,14 @@ Programming | Python / R / Shell & Linux / Javascript / Java
 Machine Learning  | ML / DL 
 Statistics | Statistics Learning / Probability 
 Database  |  RDBMS / NoSQL  
+ETL  |  Airflow 
 AWS | dev 
 GCP | dev 
 Docker |  dev 
 System Design |  dev 
 Scalable   | dev
 Streaming   | dev 
+Algorithm   | dev 
 Case Study |  dev 
 
 
@@ -43,21 +45,13 @@ Case Study |  dev
 * [Intro to Linux/Unix](https://www.tutorialspoint.com/unix/index.htm)
 * [Command line Challenge](https://cmdchallenge.com/#/hello_world
 )
+
 ### Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
 * [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
 * [Leetcode](https://github.com/yennanliu/CS_basics)
 
-
-## Statistics 
-* [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
-* [intro2stats](https://github.com/rouseguy/intro2stats)
-* [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
-* [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
-* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/
-)
-
-
+---
 ## ML 
 * [CS 229 Machine Learning ](https://www.coursera.org/learn/machine-learning) - Andrew Ng's ML course 
 * [CS 229 Machine Learning nb](https://github.com/JWarmenhoven/Coursera-Machine-Learning) - Andrew Ng's ML exercises in ipython notebook 
@@ -81,6 +75,17 @@ Case Study |  dev
 * [CS4705 NLP](http://www.cs.columbia.edu/~cs4705/) - Michael Collins's NLP course
 * [Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba) - Math explaination DL  
 
+---
+## Statistics 
+* [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
+* [intro2stats](https://github.com/rouseguy/intro2stats)
+* [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
+* [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
+* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/
+)
+
+
+---
 ## Database 
 * [Laundch school Posgre course](https://launchschool.com/books/sql_first_edition/read/types) - DATABASE DESIGN AND PERFORMANCE
 * [Database Structure and Design Tutorial ](https://www.lucidchart.com/pages/database-diagram/database-design) - database-design
@@ -89,14 +94,40 @@ Case Study |  dev
 ) - data-engineer Tutorial
 
 
+
+---
 ## ETL 
 * [Airflow doc.](https://airflow.apache.org/) - Airflow Documentation
 * [Astronomer doc.](https://www.astronomer.io/guides/) - Astronomer is a data engineering platform that helps you get up and running with Apache Airflow in minutes
 * [Astronomer CLI](https://github.com/astronomerio/astro-cli) - Astronomer command line repo
+* [awesome-apache-airflow](https://github.com/jghoman/awesome-apache-airflow) - Curated list of resources about Apache Airflow
 
 
+---
+## AWS 
+* [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
+
+
+---
+## GCP
+* dev 
+
+
+---
+## Docker 
+* [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial)
+* [docker-workshop - Set up DB Docker](https://github.com/InsightDataScience/docker-workshop/blob/master/chapter3/README.md)
+
+
+## System design
+* dev 
+
+
+---
 ## Scalable
-* [Mining of Massive Datasets](http://www.mmds.org/) - Stanford Computer Science course CS246: Mining Massive Datasets (and CS345A: Data Mining).
+* [System design questions](https://www.hiredintech.com/system-design) - Set of interview system design questions 
+* [highscalability.com](http://highscalability.com/) - Website about scalable system design practices 
+* [Mining of Massive Datasets](http://www.mmds.org/) - Stanford Computer Science course CS246: Mining Massive Datasets (and CS345A: Data Mining)
 
 ## Streaming
 * [Real-time syslog Processing](https://www.confluent.io/blog/real-time-syslog-processing-apache-kafka-ksql-part-1-filtering) - eal-time syslog Processing with Apache Kafka and KSQL
@@ -112,11 +143,12 @@ Case Study |  dev
 ) - evolution-of-the-netflix-data-pipeline
 * [Airstream at airbnb](https://databricks.com/session/airstream-spark-streaming-at-airbnb) - spark-streaming-at-airbnb
 
+---
+## Algorithm
+* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) 
 
 
-
-
-
+---
 ## Case Study
 * [A/B testing on deliveroo](https://deliveroo.engineering/2016/09/19/ab-testing-cdns.html
 ) Running A/B tests on our hosting infrastructure
@@ -134,13 +166,6 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 * [Quantopian](https://www.quantopian.com/home) 
 * [numer.ai](https://numer.ai/homepage) 
  
-
-## AWS 
-* [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
-
-## Docker 
-* [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial)
-* [docker-workshop - Set up DB Docker](https://github.com/InsightDataScience/docker-workshop/blob/master/chapter3/README.md)
 
 
 
