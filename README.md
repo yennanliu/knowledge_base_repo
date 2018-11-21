@@ -6,6 +6,7 @@ Reference | Comments
 Programming | Python / R / Shell & Linux / Javascript / Java  
 Machine Learning  | ML / DL 
 Statistics | Statistics Learning / Probability 
+Algorithm   | dev 
 Database  |  RDBMS / NoSQL  
 ETL  |  Airflow 
 AWS | dev 
@@ -14,8 +15,10 @@ Docker |  dev
 System Design |  dev 
 Scalable   | dev
 Streaming   | dev 
-Algorithm   | dev 
 Case Study |  dev 
+Competition |  dev 
+Other Resources |  dev 
+DOCKERFILE     | mac-data-science, mac-data-engineer, ubuntu-data-science
 
 
 
@@ -84,6 +87,10 @@ Case Study |  dev
 * [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/
 )
 
+---
+## Algorithm
+* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) 
+
 
 ---
 ## Database 
@@ -92,7 +99,6 @@ Case Study |  dev
 * [PostgreSQL Intro](https://www.tutorialspoint.com/postgresql/postgresql_functions.htm) - PostgreSQL Tutorial
 * [Dataquest DE](https://www.dataquest.io/path/data-engineer
 ) - data-engineer Tutorial
-
 
 
 ---
@@ -143,10 +149,6 @@ Case Study |  dev
 ) - evolution-of-the-netflix-data-pipeline
 * [Airstream at airbnb](https://databricks.com/session/airstream-spark-streaming-at-airbnb) - spark-streaming-at-airbnb
 
----
-## Algorithm
-* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) 
-
 
 ---
 ## Case Study
@@ -156,16 +158,17 @@ Case Study |  dev
 https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
 ) Architecture (data) @ Netflix/Airbnb/Twitter..
 
-## Others resorces 
-* [Towards Data Science](https://towardsdatascience.com/)  
-* [Thepudding](https://pudding.cool/) 
-
-
+---
 ## Competition
 * [Kaggle](https://www.kaggle.com/) 
 * [Quantopian](https://www.quantopian.com/home) 
 * [numer.ai](https://numer.ai/homepage) 
  
+---
+## Others resorces 
+* [Towards Data Science](https://towardsdatascience.com/)  
+* [Thepudding](https://pudding.cool/) 
+
 
 
 
