@@ -1,5 +1,7 @@
 
-## Intro 
+## Intro
+
+- Repo for learning data-science / data engineering. 
 
 Reference | Comments  
 ------------ | -------------
@@ -18,7 +20,7 @@ Streaming   | dev
 Case Study |  dev 
 Competition |  dev 
 Other Resources |  dev 
-DOCKERFILE     | mac-data-science, mac-data-engineer, ubuntu-data-science
+Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 
 
 
@@ -171,6 +173,8 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 
 
 
+---
+## Dockerfile  
 
 ### Local data science ML environment (docker)
 
