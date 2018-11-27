@@ -46,7 +46,8 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Intro to Java](https://www.tutorialspoint.com/java/index.htm)
 
 
-### Shell & Linux 
+### Shell & Linux
+* [Bash scripting cheatsheet](https://devhints.io/bash?fbclid=IwAR1NEFjIIbOCpuVpHkgg8cIlAC_ZUoEmI386lruCjRB1SBsjofdjlnweNfQ)
 * [Intro to Linux/Unix](https://www.tutorialspoint.com/unix/index.htm)
 * [Command line Challenge](https://cmdchallenge.com/#/hello_world
 )
