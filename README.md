@@ -15,6 +15,7 @@ AWS | dev
 GCP | dev 
 Docker |  dev 
 System Design |  dev 
+Spark   | dev
 Scalable   | dev
 Streaming   | dev 
 Case Study |  dev 
@@ -80,6 +81,9 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Kaggle-Learn](https://www.kaggle.com/learn/overview) - Hands-On Data Science Education on Kaggle 
 * [CS4705 NLP](http://www.cs.columbia.edu/~cs4705/) - Michael Collins's NLP course
 * [Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba) - Math explaination DL  
+* [Dive into Deep Learning](http://en.diveintodeeplearning.org/index.html) - An interactive deep learning book for students, engineers, and researchers.
+* [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - An interactive deep learning book for students, engineers, and researchers.
+
 
 ---
 ## Statistics 
@@ -130,6 +134,11 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 
 ## System design
 * dev 
+
+
+
+## Spark 
+* [Databricks Getting Started Guide](https://docs.databricks.com/) - Databricks documentation (Spark)
 
 
 ---
