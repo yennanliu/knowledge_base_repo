@@ -91,8 +91,11 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [intro2stats](https://github.com/rouseguy/intro2stats)
 * [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
 * [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
-* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/
-)
+* [A/B Testing: The Definitive Guide to improve your prod](https://www.dataquest.io/blog/a-b-testing-the-definitive-guide-to-improving-your-product/?fbclid=IwAR3wsD1mUvahqJTe56oWi6GzSVHhJ0pgr7_V8Q2Fbbbe2_UlT5jXbPdnp_w)
+* [A/B Testing Udacity ](https://eu.udacity.com/course/ab-testing--ud257?fbclid=IwAR0WHBVd1g-rnifuKq_cshHHM3I2K_KXrRYbLCUni0hnBHaMIAUdF5XmwZQ)
+* [Customer Analytics & A/B Testing in Python ](https://www.datacamp.com/courses/customer-analytics-ab-testing-in-python)
+* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/)
+
 
 ---
 ## Algorithm
@@ -164,8 +167,6 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 
 ---
 ## Case Study
-* [A/B testing on deliveroo](https://deliveroo.engineering/2016/09/19/ab-testing-cdns.html
-) Running A/B tests on our hosting infrastructure
 * [Architecture Of Giants Data Stacks](
 https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
 ) Architecture (data) @ Netflix/Airbnb/Twitter..
