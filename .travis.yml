@@ -8,8 +8,9 @@ env:
     - secret: "<something long>"
 
 script:
-  - sudo docker build -t mac_de_docker -f ./Dockerfile ./
-  - docker run mac_de_docker/Dockerfile
+  - docker build --rm -t mac_de_docker/Dockerfile .
+  - docker ps 
+  - docker ps -a  
 
 after_script:
   - docker images
