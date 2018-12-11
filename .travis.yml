@@ -1,0 +1,23 @@
+sudo: required
+services:
+  - docker
+env:
+  global:
+    - REGISTRY_USER=myrobot
+    # REGISTRY_PASS=...
+    - secret: "<something long>"
+
+script:
+  - docker build --tag mac_de_docker/Dockerfile .
+  - docker run /mac_de_docker/Dockerfile
+
+after_script:
+  - docker images
+
+#before_deploy:
+#  - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASS"
+#deploy:
+#  provider: script
+#  script: docker push myorg/myimage
+#  on:
+#    branch: master
