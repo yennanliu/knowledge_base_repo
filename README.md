@@ -1,6 +1,9 @@
 
 ## Intro
 
+[![Build Status](https://travis-ci.org/yennanliu/data_science_repo.svg?branch=master)](https://travis-ci.org/yennanliu/data_science_repo)
+
+
 - Repo for learning data-science / data engineering. 
 
 Reference | Comments  
