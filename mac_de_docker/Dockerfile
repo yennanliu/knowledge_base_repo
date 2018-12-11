@@ -21,8 +21,8 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists/*
 
 
-RUN \
-    apt-get install -y postgresql
+#RUN \
+#    apt-get install -y postgresql
 
 
 RUN cd /tmp && \
