@@ -39,10 +39,9 @@ RUN cd /usr/local && ln -s spark-${APACHE_SPARK_VERSION}-bin-hadoop${HADOOP_VERS
 # https://www.saltycrane.com/blog/2010/02/how-install-pip-ubuntu/
 RUN \ 
     apt-get install python-pip python-dev build-essential 
-pip install --upgrade pip 
-pip install --upgrade virtualenv
 RUN \
     pip install --upgrade pip && \ 
+    pip install --upgrade virtualenv \
     pip install psycopg2 numpy pandas scikit-learn scipy pyyaml 
 
 
