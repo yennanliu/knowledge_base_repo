@@ -40,10 +40,10 @@ RUN cd /usr/local && ln -s spark-${APACHE_SPARK_VERSION}-bin-hadoop${HADOOP_VERS
 
 #RUN \ 
 #    apt-get install python-pip python-dev build-essential 
-RUN \
-    pip install --upgrade pip && \ 
-    pip install --upgrade virtualenv \
-    pip install psycopg2 numpy pandas scikit-learn scipy pyyaml 
+#RUN \
+#    pip install --upgrade pip && \ 
+#    pip install --upgrade virtualenv \
+#    pip install psycopg2 numpy pandas scikit-learn scipy pyyaml 
 
 
 # Mesos dependencies
