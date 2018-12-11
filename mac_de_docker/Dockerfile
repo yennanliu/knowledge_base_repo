@@ -37,8 +37,9 @@ RUN cd /usr/local && ln -s spark-${APACHE_SPARK_VERSION}-bin-hadoop${HADOOP_VERS
 # Install pip and library 
 # How to install pip on Ubuntu 
 # https://www.saltycrane.com/blog/2010/02/how-install-pip-ubuntu/
-RUN \ 
-    apt-get install python-pip python-dev build-essential 
+
+#RUN \ 
+#    apt-get install python-pip python-dev build-essential 
 RUN \
     pip install --upgrade pip && \ 
     pip install --upgrade virtualenv \
