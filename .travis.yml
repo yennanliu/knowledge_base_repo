@@ -8,7 +8,7 @@ env:
     - secret: "<something long>"
 
 script:
-  - docker build --rm -t mac_de_docker/Dockerfile .
+  - docker build -f mac_de_docker/Dockerfile .
   - docker ps 
   - docker ps -a  
 
