@@ -19,6 +19,7 @@ before_deploy:
   - docker login --username $REGISTRY_USER --password-stdin $REGISTRY_PASS
 deploy:
   provider: script
-  script: docker push yennanliu/mac_de_docker:V2
+  # commit and push 
+  script: docker commit mac_de_docker yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
