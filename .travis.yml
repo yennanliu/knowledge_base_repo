@@ -15,10 +15,10 @@ script:
 after_script:
   - docker images
 
-#before_deploy:
-#  - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASS"
-#deploy:
-#  provider: script
-#  script: docker push myorg/myimage
-#  on:
-#    branch: master
+before_deploy:
+  - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASS"
+deploy:
+  provider: script
+  script: docker push yennanliu/mac_de_docker:V2
+  on:
+    branch: master
