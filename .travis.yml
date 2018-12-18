@@ -26,7 +26,7 @@ before_deploy:
 deploy:
   provider: script
   # commit and push 
-  script: docker commit $container_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
+  script: docker commit $container_id yennanliu/mac_de_docker:V4 && docker push yennanliu/mac_de_docker:V4
   #script: docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
