@@ -16,7 +16,7 @@ after_script:
   - docker images
 
 before_deploy:
-  - docker login --username $REGISTRY_USER --password-stdin $REGISTRY_PASS
+  - docker login -u $REGISTRY_USER -p $REGISTRY_PASS
 deploy:
   provider: script
   # commit and push 
