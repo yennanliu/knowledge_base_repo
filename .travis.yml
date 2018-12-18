@@ -11,15 +11,20 @@ script:
   - docker build -f mac_de_docker/Dockerfile .
   - docker ps 
   - docker ps -a  
+  - docker images
 
 after_script:
-  - docker images
+  #- docker images
+  script: image_id="` docker images | awk 'FNR == 2 {print $3}'`" && echo $image_id
+
+# test:
+# script: docker  docker run -it 
 
 before_deploy:
   - docker login -u $REGISTRY_USER -p $REGISTRY_PASS
 deploy:
   provider: script
   # commit and push 
-  script: docker commit mac_de_docker yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
+  script: docker commit $image_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
