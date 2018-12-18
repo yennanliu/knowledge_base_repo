@@ -15,7 +15,7 @@ script:
 
 after_script:
   #- docker images
-  script: container_id="` docker ps | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
+  script: container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
 
 test:
   script: docker run -it $container_id echo 'docker test 123'
