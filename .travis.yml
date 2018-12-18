@@ -22,7 +22,8 @@ test:
 
 before_deploy:
   #- docker login -u="$REGISTRY_USER" -p="$REGISTRY_PASS"
-  - if echo "$REGISTRY_PASS" | docker login -u "$REGISTRY_USER" --password-stdin ; then echo "docker login OK!" else echo "docker login failed" fi 
+  - echo "$REGISTRY_PASS" | docker login -u "$REGISTRY_USER" --password-stdin && echo "docker login OK" || echo "docker login failed"
+
 deploy:
   provider: script
   # commit and push 
