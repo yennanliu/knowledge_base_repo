@@ -21,10 +21,12 @@ after_script:
 # script: docker  docker run -it 
 
 before_deploy:
-  - docker login -u $REGISTRY_USER -p $REGISTRY_PASS
+  - docker login -u="$REGISTRY_USER" -p="$REGISTRY_PASS"
 deploy:
   provider: script
   # commit and push 
   script: docker commit $image_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
+
+
