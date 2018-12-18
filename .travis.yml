@@ -3,9 +3,9 @@ services:
   - docker
 env:
   global:
-    - REGISTRY_USER=myrobot
-    # REGISTRY_PASS=...
-    - secret: "<something long>"
+    REGISTRY_USER=$REGISTRY_USER
+    REGISTRY_PASS=$REGISTRY_PASS
+    #- secret: "<something long>"
 
 script:
   - docker build -f mac_de_docker/Dockerfile .
