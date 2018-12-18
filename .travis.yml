@@ -5,7 +5,6 @@ env:
   #global:
   #  REGISTRY_USER=$REGISTRY_USER
   #  REGISTRY_PASS=$REGISTRY_PASS
-  #- secret: "<something long>"
 
 script:
   - echo REGISTRY_USER = $REGISTRY_USER && echo REGISTRY_PASS = $REGISTRY_PASS
@@ -16,18 +15,18 @@ script:
 
 after_script:
   #- docker images
-  script: image_id="` docker images | awk 'FNR == 2 {print $3}'`" && echo $image_id
+  script: container_id="` docker ps | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
 
 test:
-  script: docker run -it $image_id echo 'docker test 123'
+  script: docker run -it $container_id echo 'docker test 123'
 
 before_deploy:
   #- docker login -u="$REGISTRY_USER" -p="$REGISTRY_PASS"
-  - echo "$REGISTRY_PASS" | docker login -u "$REGISTRY_USER" --password-stdin
+  - if echo "$REGISTRY_PASS" | docker login -u "$REGISTRY_USER" --password-stdin ; then echo "docker login OK!" else echo "docker login failed" fi 
 deploy:
   provider: script
   # commit and push 
-  script: docker commit $image_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
+  script: docker commit $container_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
 
