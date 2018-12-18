@@ -2,12 +2,13 @@ sudo: required
 services:
   - docker
 env:
-  global:
-    REGISTRY_USER=$REGISTRY_USER
-    REGISTRY_PASS=$REGISTRY_PASS
-    #- secret: "<something long>"
+  #global:
+  #  REGISTRY_USER=$REGISTRY_USER
+  #  REGISTRY_PASS=$REGISTRY_PASS
+  #- secret: "<something long>"
 
 script:
+  - echo REGISTRY_USER = $REGISTRY_USER && echo REGISTRY_PASS = $REGISTRY_PASS
   - docker build -f mac_de_docker/Dockerfile .
   - docker ps 
   - docker ps -a  
@@ -21,7 +22,8 @@ after_script:
 # script: docker  docker run -it 
 
 before_deploy:
-  - docker login -u="$REGISTRY_USER" -p="$REGISTRY_PASS"
+  #- docker login -u="$REGISTRY_USER" -p="$REGISTRY_PASS"
+  - echo "$REGISTRY_PASS" | docker login -u "$REGISTRY_USER" --password-stdin
 deploy:
   provider: script
   # commit and push 
