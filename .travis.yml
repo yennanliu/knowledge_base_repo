@@ -13,7 +13,8 @@ script:
   - docker ps -a  
   - docker images
   - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
-  - docker run -it $image_id echo 'docker test 123'
+  #- docker run -it $image_id echo 'docker test 123'
+  - docker run -it jupyter/scipy-notebook echo 'docker test 123'
   - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
   - docker ps -a 
 
@@ -24,7 +25,8 @@ before_deploy:
 deploy:
   provider: script
   # commit and push 
-  script: docker commit $container_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
+  #script: docker commit $container_id yennanliu/mac_de_docker:V2 && docker push yennanliu/mac_de_docker:V2
+  script: docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
 
