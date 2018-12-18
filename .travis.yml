@@ -13,7 +13,9 @@ script:
   - docker ps -a  
   - docker images
   - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
-  - docker run -it $container_id echo 'docker test 123'
+  - docker run -it $image_id echo 'docker test 123'
+  - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
+  - docker ps -a 
 
 before_deploy:
   #- docker login -u="$REGISTRY_USER" -p="$REGISTRY_PASS"
