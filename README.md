@@ -190,6 +190,38 @@ https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airb
 ---
 ## Dockerfile  
 
+
+### Local data engineer environment (astro airflow)
+
+```bash
+
+# https://www.astronomer.io/docs/getting-started/
+
+# STEP 1) Install go 
+brew install go
+# STEP 2) get astronomer CLI
+curl -sL https://install.astronomer.io | sudo bash
+# STEP 3) verify install success 
+astro 
+# STEP 4) get repo 
+git clone https://github.com/yennanliu/data_science_repo.git &&  cd data_science_repo/de_airflow_docker
+# STEP 5) init airflow 
+astro airflow init  
+# STEP 6) start airflow
+astro airflow start
+# STEP 7) show the docker image list  and get the docker container id 
+# docker ps -a  
+# STEP 8-1) visit airflow UI 
+# open http://localhost:8080/admin/ in browser  
+# STEP 8-2) access the bash in docker image 
+# e.g. docker exec -it  4ca916bba31e bash 
+docker exec -it <docker_container_id>
+
+```
+
+
+
+
 ### Local data science ML environment (docker)
 
 ```bash
