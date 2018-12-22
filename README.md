@@ -221,9 +221,9 @@ docker exec -it <docker_container_id>
 ```
 
 
-
-
 ### Local data science ML environment (docker)
+
+[mac_ds_ml_docker](https://github.com/yennanliu/data_science_repo/blob/master/mac_ds_ml_docker/Dockerfile)
 
 ```bash
 
@@ -250,7 +250,10 @@ docker run -it yennanliu/mac_ds_ml_env:v1 bash
 
 ```
 
+
 ### Local data science DL environment (docker)
+
+[mac_ds_dl_docker](https://github.com/yennanliu/data_science_repo/blob/master/mac_ds_dl_docker/Dockerfile)
 
 ```bash
 # dev 
@@ -259,6 +262,8 @@ docker run -it yennanliu/mac_ds_ml_env:v1 bash
 
 
 ### Local data engineer environment (docker)
+
+[mac_de_docker](https://github.com/yennanliu/data_science_repo/tree/master/mac_de_docker)
 
 ```bash
 # dev 
@@ -273,7 +278,10 @@ docker run -it yennanliu/mac_de_env:v1 bash
 
 ```
 
+
 ### Ubuntu Scrapper environment (docker)
+
+[ubuntu_scrapper_docker](https://github.com/yennanliu/data_science_repo/blob/master/ubuntu_scrapper_docker/Dockerfile)
 
 ```bash
 
