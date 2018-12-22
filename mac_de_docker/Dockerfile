@@ -73,3 +73,13 @@ RUN conda install --quiet -y 'pyarrow' && \
     conda clean -tipsy && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
+
+
+
+#############  run a test posgre query  ################
+
+CMD ["/setup_posgre_local.sh"]
+
+
+
+
