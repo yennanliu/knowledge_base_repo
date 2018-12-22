@@ -78,7 +78,7 @@ RUN conda install --quiet -y 'pyarrow' && \
 
 #############  run a test posgre query  ################
 
-CMD ["/setup_posgre_local.sh"]
+CMD ["/setup_posgre_local.sh", "psql  --dbname pgguide  -c "select * from products;""]
 
 
 
