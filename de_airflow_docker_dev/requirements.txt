@@ -21,3 +21,6 @@ google-cloud-storage
 google-cloud-monitoring
 google-cloud-vision
 grpcio
+# install airflow dbs : https://airflow.apache.org/installation.html
+apache-airflow[mysql]
+
