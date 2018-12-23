@@ -7,6 +7,7 @@ env:
   #  REGISTRY_PASS=$REGISTRY_PASS
 
 script:
+  - echo 'BUILD PART 1'
   - echo REGISTRY_USER = $REGISTRY_USER && echo REGISTRY_PASS = $REGISTRY_PASS
   - docker build -f mac_de_docker/Dockerfile .
   - docker ps 
@@ -30,5 +31,9 @@ deploy:
   #script: docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
+
+build_2:
+  - echo 'BUILD PART 2'
+  - docker build -f de_airflow_docker_dev/Dockerfile .
 
 
