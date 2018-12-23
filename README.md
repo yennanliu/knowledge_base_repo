@@ -216,7 +216,7 @@ astro airflow start
 # open http://localhost:8080/admin/ in browser  
 # STEP 8-2) access the bash in docker image 
 # e.g. docker exec -it  4ca916bba31e bash 
-docker exec -it <docker_container_id>
+docker exec -it <docker_container_id> bash 
 
 ```
 
@@ -231,17 +231,14 @@ docker exec -it <docker_container_id>
 
 #https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
 #https://hub.docker.com/r/yennanliu/mac_ds_ml_env/
-
 # step 2  pull the docker image
 # https://stackoverflow.com/questions/45952630/error-response-from-daemon-manifest-for-ibmblockchain-fabric-peerlatest-not-fo 
 docker pull yennanliu/mac_ds_ml_env:v1
-
 # step 3
 # list all containers 
 docker images 
 # list all dockers 
 docker ps 
-
 # step 4 
 # launch container 
 docker run  yennanliu/mac_ds_ml_env:v1 
