@@ -34,6 +34,6 @@ deploy:
 
 build_2:
   - echo 'BUILD PART 2'
-  - docker build -f de_airflow_docker_dev/Dockerfile .
+  - cd de_airflow_docker_dev && astro airflow start 
 
 
