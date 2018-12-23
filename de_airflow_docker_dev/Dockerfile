@@ -4,4 +4,4 @@ FROM astronomerinc/ap-airflow:latest-onbuild
 
 
 ############# install posgre   ################
-ENTRYPOINT ["/bin/bash", "/setup_posgre_local.sh"]
+#RUN bash setup_posgre_local.sh
