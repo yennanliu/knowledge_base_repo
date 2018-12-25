@@ -45,14 +45,11 @@ before_deploy:
 deploy:
   provider: script
   # commit and push 
+  script: echo '----------------- DEPLOY PART 1 -----------------'
   script: docker commit $container_id yennanliu/mac_de_docker:V4 && docker push yennanliu/mac_de_docker:V4
-  #script: docker push yennanliu/mac_de_docker:V2
-  on:
-    branch: master
-
-  provider: script
-  # commit and push 
+  script: echo '----------------- DEPLOY PART 2 -----------------'
   script: docker commit $container_id2 yennanliu/de-airflow-docker-dev:v1 && docker push yennanliu/de-airflow-docker-dev:v1
+  #script: docker push yennanliu/mac_de_docker:V2
   on:
     branch: master
 
