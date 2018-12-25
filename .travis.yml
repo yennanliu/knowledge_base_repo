@@ -20,16 +20,15 @@ script:
   - echo ' -----------------  BUILD PART 1 ----------------- '
   - echo REGISTRY_USER = $REGISTRY_USER && echo REGISTRY_PASS = $REGISTRY_PASS
   - docker build -f mac_de_docker/Dockerfile .
-  - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
   #- docker run -it $image_id echo 'docker test 123'
-  - docker exec -it jupyter/scipy-notebook echo 'docker test 123'
+  - docker run -it jupyter/scipy-notebook echo 'docker test 123'
   - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
   - docker ps -a 
   - docker images
   - echo '----------------- BUILD PART 2 -----------------'
   - cd de_airflow_docker_dev && docker build -f Dockerfile .  && docker build -f /Dockerfile . && docker ps -a 
+  - docker run -it astronomerinc/ap-airflow echo 'docker test 456'
   - container_id2="` docker ps -a | grep airflow | awk  'FNR == 1 {print $1}'`" && echo container_id = $container_id && image_id2="` docker ps -a  | grep airflow | awk 'FNR == 1 {print $2}'`" && echo image_id = $image_id 
-  - docker exec -it jupyter/scipy-notebook echo 'docker test 456'
   - docker ps -a 
   - docker images
 
