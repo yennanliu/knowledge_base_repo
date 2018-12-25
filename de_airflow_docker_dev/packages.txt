@@ -10,4 +10,3 @@ git
 postgresql
 postgresql-contrib
 mysql-client
-libmysqlclient-dev 
