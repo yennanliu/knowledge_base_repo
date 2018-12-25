@@ -1,5 +1,10 @@
+# Travis Build Multiple Docker Images from a Single Repo
+# https://stackoverflow.com/questions/39422135/travis-build-multiple-docker-images-from-a-single-repo
+
 sudo: required
 
+matrix:
+      
 services:
   - docker
 
@@ -12,16 +17,19 @@ install:
 before_script: 
 
 script:
-  - echo 'BUILD PART 1'
+  - echo ' -----------------  BUILD PART 1 ----------------- '
   - echo REGISTRY_USER = $REGISTRY_USER && echo REGISTRY_PASS = $REGISTRY_PASS
   - docker build -f mac_de_docker/Dockerfile .
-  - docker ps 
-  - docker ps -a  
-  - docker images
   - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
   #- docker run -it $image_id echo 'docker test 123'
-  - docker run -it jupyter/scipy-notebook echo 'docker test 123'
+  - docker exec -it jupyter/scipy-notebook echo 'docker test 123'
   - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
+  - docker ps -a 
+  - docker images
+  - echo '----------------- BUILD PART 2 -----------------'
+  - cd de_airflow_docker_dev && docker build -f Dockerfile .  && docker build -f /Dockerfile . && docker ps -a 
+  - container_id2="` docker ps -a | grep airflow | awk  'FNR == 1 {print $1}'`" && echo container_id = $container_id && image_id2="` docker ps -a  | grep airflow | awk 'FNR == 1 {print $2}'`" && echo image_id = $image_id 
+  - docker exec -it jupyter/scipy-notebook echo 'docker test 456'
   - docker ps -a 
   - docker images
 
@@ -42,10 +50,12 @@ deploy:
   on:
     branch: master
 
+  provider: script
+  # commit and push 
+  script: docker commit $container_id2 yennanliu/de-airflow-docker-dev:v1 && docker push yennanliu/de-airflow-docker-dev:v1
+  on:
+    branch: master
+
 after_deploy:
 
-
-build_2:
-  - echo 'BUILD PART 2'
-  - cd de_airflow_docker_dev && astro airflow start  && docker build -f /Dockerfile . && docker ps -a   && docker images 
 
