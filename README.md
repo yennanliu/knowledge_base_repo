@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/yennanliu/data_science_repo.svg?branch=master)](https://travis-ci.org/yennanliu/data_science_repo)
 [![PRs](https://img.shields.io/badge/PRs-welcome-6574cd.svg)](https://github.com/yennanliu/data_science_repo/pulls)
 [![Binder](https://img.shields.io/badge/launch-Jupyter-5eba00.svg)](https://mybinder.org/v2/gh/yennanliu/data_science_repo/master)
-[![Rmotr](https://img.shields.io/badge/launch-Rmotr-cd201f.svg)](https://notebooks.rmotr.com/linus-croll/data_science_repo-5dc2977d/lab)
+[![Rmotr](https://img.shields.io/badge/launch-Rmotr-cd201f.svg)](https://notebooks.rmotr.com/yennanliu/data_science_repo-b857822c)
 [![MIT](https://img.shields.io/badge/license-MIT-f1c40f.svg)](https://github.com/yennanliu/data_science_repo/blob/master/LICENSE)
 
 - Repo for learning data-science / data engineering. 
