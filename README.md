@@ -2,7 +2,7 @@
 ## Intro
 
 [![Build Status](https://travis-ci.org/yennanliu/data_science_repo.svg?branch=master)](https://travis-ci.org/yennanliu/data_science_repo)
-
+[![PRs](https://img.shields.io/badge/PRs-welcome-6574cd.svg)](https://github.com/yennanliu/data_science_repo/pulls)
 
 - Repo for learning data-science / data engineering. 
 
