@@ -5,6 +5,7 @@
 [![PRs](https://img.shields.io/badge/PRs-welcome-6574cd.svg)](https://github.com/yennanliu/data_science_repo/pulls)
 [![Binder](https://img.shields.io/badge/launch-Jupyter-5eba00.svg)](https://mybinder.org/v2/gh/yennanliu/data_science_repo/master)
 [![Rmotr](https://img.shields.io/badge/launch-Rmotr-cd201f.svg)](https://notebooks.rmotr.com/yennanliu/data_science_repo-b857822c)
+[![Colab](https://img.shields.io/badge/launch-Google%20Colab-45aaf2.svg)](https://colab.research.google.com/github/yennanliu/data_science_repo/blob/master/demo.ipynb)
 [![MIT](https://img.shields.io/badge/license-MIT-f1c40f.svg)](https://github.com/yennanliu/data_science_repo/blob/master/LICENSE)
 
 - Repo for learning data-science / data engineering. 
