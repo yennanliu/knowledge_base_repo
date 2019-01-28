@@ -90,6 +90,7 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba) - Math explaination DL  
 * [Dive into Deep Learning](http://en.diveintodeeplearning.org/index.html) - An interactive deep learning book for students, engineers, and researchers.
 * [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - An interactive deep learning book for students, engineers, and researchers.
+* [seedbank (google research)](https://research.google.com/seedbank/) - Collection of Interactive Machine Learning Examples and can run on google colab. 
 
 
 ---
