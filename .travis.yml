@@ -10,12 +10,6 @@ services:
 
 env:
 
-before_install:
-
-install:
-
-before_script: 
-
 script:
   - echo ' -----------------  BUILD IMAGES ----------------- ' && bash build.sh
 
