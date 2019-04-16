@@ -6,7 +6,7 @@
 
 echo ' ---------------- BUILD ALL REPO DOCKER IMAGES ----------------'
 
-declare -a docker_images=("mac_de_docker/."  "de_airflow_docker_dev/.")
+declare -a docker_images=("de_airflow_docker_dev/.")
 
 for docker_image in "${docker_images[@]}"
 	do 

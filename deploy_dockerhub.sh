@@ -6,7 +6,7 @@
 
 echo ' ---------------- DEPLOY TO DOCKER HUB ----------------'
 
-declare -a docker_images=("mac_de_docker/."  "de_airflow_docker_dev/.")
+declare -a docker_images=("de_airflow_docker_dev/.")
 #REGISTRY_USER=$(echo ${REGISTRY_USER})
 #REGISTRY_PASS=$(echo ${REGISTRY_PASS})
 echo "$REGISTRY_PASS" | docker login  --username $REGISTRY_USER --password $REGISTRY_PASS && echo "docker login OK" || echo "docker login failed"
