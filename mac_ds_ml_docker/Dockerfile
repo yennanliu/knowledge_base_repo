@@ -8,8 +8,7 @@ MAINTAINER "yen"
 
 #############  install library ################
 
-RUN apt-get update && apt-get install -y libgtk2.0-dev && apt-get install wget\
-    rm -rf /var/lib/apt/lists/* && \
+RUN apt-get update && apt-get install -y libgtk2.0-dev && apt-get install wget && \
     /opt/conda/bin/conda install jupyter -y && \
     /opt/conda/bin/conda install numpy pandas scikit-learn matplotlib seaborn pyyaml && \
     /opt/conda/bin/conda upgrade dask && \
