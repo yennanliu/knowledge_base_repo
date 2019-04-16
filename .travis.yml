@@ -17,40 +17,13 @@ install:
 before_script: 
 
 script:
-  - echo ' -----------------  BUILD PART 1 ----------------- '
-  - echo REGISTRY_USER = $REGISTRY_USER && echo REGISTRY_PASS = $REGISTRY_PASS
-  #- echo 'docker bulid...' && cd mac_de_docker && pwd && ls  && docker build -f Dockerfile .
-  - echo 'docker bulid...' && docker build -f mac_de_docker/Dockerfile .
-  #- docker run -it $image_id echo 'docker test 123'
-  - docker run -it jupyter/scipy-notebook echo 'docker test 123'
-  - container_id="` docker ps -a | awk 'FNR == 2 {print $1}'`" && echo container_id = $container_id && image_id="` docker ps -a | awk 'FNR == 2 {print $2}'`" && echo image_id = $image_id 
-  - docker ps -a 
-  - docker images
-  - echo '----------------- BUILD PART 2 -----------------'
-  #- docker build -f de_airflow_docker_dev/Dockerfile .
-  - echo 'docker bulid...' && cd de_airflow_docker_dev && pwd && ls  && docker build -f Dockerfile .
-  - docker run -it astronomerinc/ap-airflow echo 'docker test 456'
-  - container_id2="` docker ps -a | grep airflow | awk  'FNR == 1 {print $1}'`" && echo container_id = $container_id && image_id2="` docker ps -a  | grep airflow | awk 'FNR == 1 {print $2}'`" && echo image_id = $image_id 
-  - docker ps -a 
-  - docker images
-
-after_script:  
-
-after_success:
-
-after_failure:
+  - echo ' -----------------  BUILD IMAGES ----------------- ' && bash build.sh
 
 before_deploy:
-  - echo "$REGISTRY_PASS" | docker login -u "$REGISTRY_USER" --password-stdin && echo "docker login OK" || echo "docker login failed"
 
 deploy:
   provider: script
-  # commit and push 
-  script: (echo '--- DEPLOY PART 1 ---' && docker commit $container_id yennanliu/mac_de_docker:V4 && docker push yennanliu/mac_de_docker:V4) && (echo '--- DEPLOY PART 2 ---' && docker commit $container_id2 yennanliu/de-airflow-docker-dev:v1 && docker push yennanliu/de-airflow-docker-dev:v1)
-  #script: docker push yennanliu/mac_de_docker:V2
+  script: echo "REGISTRY_PASS $REGISTRY_PASS" && echo "REGISTRY_USER $REGISTRY_USER" && export REGISTRY_PASS=$REGISTRY_PASS && export REGISTRY_USER=$REGISTRY_USER && bash deploy_dockerhub.sh 
   on:
     branch: master
-
 after_deploy:
-
-
