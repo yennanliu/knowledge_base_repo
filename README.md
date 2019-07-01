@@ -98,6 +98,8 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
 * [intro2stats](https://github.com/rouseguy/intro2stats)
 * [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
+* [Statistics Rethinking](https://bookdown.org/connect/#/apps/1850/access)
+* [Statistics Rethinking Repo](https://github.com/ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse)
 * [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
 * [A/B Testing: The Definitive Guide to improve your prod](https://www.dataquest.io/blog/a-b-testing-the-definitive-guide-to-improving-your-product/?fbclid=IwAR3wsD1mUvahqJTe56oWi6GzSVHhJ0pgr7_V8Q2Fbbbe2_UlT5jXbPdnp_w)
 * [A/B Testing Udacity ](https://eu.udacity.com/course/ab-testing--ud257?fbclid=IwAR0WHBVd1g-rnifuKq_cshHHM3I2K_KXrRYbLCUni0hnBHaMIAUdF5XmwZQ)
