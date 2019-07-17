@@ -39,6 +39,8 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Python udacity](https://www.udacity.com/course/introduction-to-python--ud1110)
 * [Python codecademy](https://www.codecademy.com/learn/learn-python)
 * [101 NumPy Exercises](https://www.machinelearningplus.com/101-numpy-exercises-python/)
+* [Getting Started With Testing in Python](https://realpython.com/python-testing/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+* [Learn functional pyhton in 10 munute](https://hackernoon.com/learn-functional-python-in-10-minutes-to-2d1651dece6f?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
 
 ### R 
 * [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
@@ -182,6 +184,9 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Architecture Of Giants Data Stacks](
 https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
 ) Architecture (data) @ Netflix/Airbnb/Twitter..
+* [The Waiting Time Paradox, or, Why Is My Bus Always Late?](
+http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+) 
 
 ---
 ## Competition
