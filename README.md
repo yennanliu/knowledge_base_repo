@@ -9,28 +9,32 @@
 [![MIT](https://img.shields.io/badge/license-MIT-f1c40f.svg)](https://github.com/yennanliu/data_science_repo/blob/master/LICENSE)
 
 - Repo for learning data-science / data engineering. 
+- Topics 
+	- Programming basics : (python/Java/Shell/R), Algorithm
+	- DS basics : Statistics, ML, DL. DB 
+	- DE basics : system design, cloud services, ETL, Scalability
+	- DE/DE env : Dockerfile
+	- Case study 
 
 Reference | Comments  
 ------------ | -------------
 Programming | Python / R / Shell & Linux / Javascript / Java  
 Machine Learning  | ML / DL 
 Statistics | Statistics Learning / Probability 
-Algorithm   | dev 
+Algorithm   | foundamental CS Algorithm collections 
 Database  |  RDBMS / NoSQL  
 ETL  |  Airflow 
-AWS | dev 
-GCP | dev 
-Docker |  dev 
-System Design |  dev 
-Spark   | dev
-Scalable   | dev
-Streaming   | dev 
-Case Study |  dev 
-Competition |  dev 
-Other Resources |  dev 
-Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
-
-
+AWS | Intro AWS EB/RDS/EC2 
+GCP | Intro to GCP  
+Docker |  Docker intro / docker playgrond (play with docker)
+System Design |  system design note 
+Spark   | Spark basics/pipeline/ML intro 
+Scalable   | Scalable  note 
+Streaming   | Streaming intro 
+Case Study |  various DS/DE case sharing  
+Competition |  DS Competitions  
+Other Resources |  some other information 
+Dockerfile     | DS/DE Dockerfile  
 
 ---
 ## Programming 
@@ -94,7 +98,6 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - An interactive deep learning book for students, engineers, and researchers.
 * [seedbank (google research)](https://research.google.com/seedbank/) - Collection of Interactive Machine Learning Examples and can run on google colab. 
 
-
 ---
 ## Statistics 
 * [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
@@ -108,11 +111,10 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [Customer Analytics & A/B Testing in Python ](https://www.datacamp.com/courses/customer-analytics-ab-testing-in-python)
 * [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/)
 
-
 ---
 ## Algorithm
 * [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) 
-
+* [CS basics](https://github.com/yennanliu/CS_basics) 
 
 ---
 ## Database 
@@ -121,7 +123,6 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 * [PostgreSQL Intro](https://www.tutorialspoint.com/postgresql/postgresql_functions.htm) - PostgreSQL Tutorial
 * [Dataquest DE](https://www.dataquest.io/path/data-engineer
 ) - data-engineer Tutorial
-
 
 ---
 ## ETL 
@@ -135,12 +136,9 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 ## AWS 
 * [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
 
-
 ---
 ## GCP
-* dev 
-
-
+* [GCP tutorial](https://cloud.google.com/docs/tutorials)
 ---
 ## Docker 
 * [PLAY WITH DOCKER](https://labs.play-with-docker.com/)
@@ -150,9 +148,8 @@ Dockerfile     | mac-ML/DL-data-science, mac-data-engineer, ubuntu-data-science
 
 
 ## System design
-* dev 
-
-
+* [System design primer](https://github.com/donnemartin/system-design-primer
+) 
 
 ## Spark 
 * [Databricks Getting Started Guide](https://docs.databricks.com/) - Databricks documentation (Spark)
