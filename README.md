@@ -204,6 +204,9 @@ http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybrid
 ---
 ## Dockerfile  
 
+<details>
+<summary> DS/DE Dockerfile</summary>
+
 ### Dockerhub
 https://hub.docker.com/u/yennanliu
 
@@ -305,5 +308,4 @@ docker pull yennanliu/ubuntu_scrapper
 docker run -it yennanliu/ubuntu_scrapper bash 
 
 ```
-
-
+</details>
