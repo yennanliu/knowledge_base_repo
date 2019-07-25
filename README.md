@@ -46,9 +46,6 @@ Dockerfile     | DS/DE Dockerfile
 * [Getting Started With Testing in Python](https://realpython.com/python-testing/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
 * [Learn functional pyhton in 10 munute](https://hackernoon.com/learn-functional-python-in-10-minutes-to-2d1651dece6f?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
 
-### R 
-* [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
-
 ### Javascript 
 * [Intro to Javascript](https://www.w3schools.com/js/)
 * [Codecademy Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
@@ -59,12 +56,14 @@ Dockerfile     | DS/DE Dockerfile
 * [Codecademy Java](https://www.codecademy.com/learn/learn-java)
 * [Intro to Java](https://www.tutorialspoint.com/java/index.htm)
 
-
 ### Shell & Linux
 * [Bash scripting cheatsheet](https://devhints.io/bash?fbclid=IwAR1NEFjIIbOCpuVpHkgg8cIlAC_ZUoEmI386lruCjRB1SBsjofdjlnweNfQ)
 * [Intro to Linux/Unix](https://www.tutorialspoint.com/unix/index.htm)
 * [Command line Challenge](https://cmdchallenge.com/#/hello_world
 )
+
+### R 
+* [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
 
 ### Computer Science 
 * [Intro to CS](https://github.com/ossu/computer-science)
@@ -80,7 +79,7 @@ Dockerfile     | DS/DE Dockerfile
 * [ML FAQ](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/?utm_content=buffer12fc1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) - 40 Interview Questions asked at Startups in Machine Learning / Data Science
 * [Almost All ML Problem Approach](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/) - Kaggle post about practical ML problem approaches 
 
-
+---
 ## DL 
 * [Deep Learning Specialization](https://www.deeplearning.ai/) - Andrew Ng's DL courses set 
 * [Deep Learning nb](https://github.com/rvarun7777/Deep_Learning) - Andrew Ng's DL courses assignment notebook reference
@@ -95,7 +94,7 @@ Dockerfile     | DS/DE Dockerfile
 * [CS4705 NLP](http://www.cs.columbia.edu/~cs4705/) - Michael Collins's NLP course
 * [Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba) - Math explaination DL  
 * [Dive into Deep Learning](http://en.diveintodeeplearning.org/index.html) - An interactive deep learning book for students, engineers, and researchers.
-* [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - An interactive deep learning book for students, engineers, and researchers.
+* [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - Dive into Deep Learning in ZH.
 * [seedbank (google research)](https://research.google.com/seedbank/) - Collection of Interactive Machine Learning Examples and can run on google colab. 
 
 ---
@@ -127,10 +126,9 @@ Dockerfile     | DS/DE Dockerfile
 ---
 ## ETL 
 * [Airflow doc.](https://airflow.apache.org/) - Airflow Documentation
-* [Astronomer doc.](https://www.astronomer.io/guides/) - Astronomer is a data engineering platform that helps you get up and running with Apache Airflow in minutes
+* [Astronomer doc.](https://www.astronomer.io/guides/) - Astronomer airflow Documentation
 * [Astronomer CLI](https://github.com/astronomerio/astro-cli) - Astronomer command line repo
 * [awesome-apache-airflow](https://github.com/jghoman/awesome-apache-airflow) - Curated list of resources about Apache Airflow
-
 
 ---
 ## AWS 
@@ -139,6 +137,7 @@ Dockerfile     | DS/DE Dockerfile
 ---
 ## GCP
 * [GCP tutorial](https://cloud.google.com/docs/tutorials)
+
 ---
 ## Docker 
 * [PLAY WITH DOCKER](https://labs.play-with-docker.com/)
@@ -146,25 +145,26 @@ Dockerfile     | DS/DE Dockerfile
 * [docker-workshop - Set up DB Docker](https://github.com/InsightDataScience/docker-workshop/blob/master/chapter3/README.md)
 * [katacoda](https://katacoda.com/) - Learn new technologies (docker, k8s...) using real environments right in your browser 
 
-
+---
 ## System design
 * [System design primer](https://github.com/donnemartin/system-design-primer
 ) 
 
+---
 ## Spark 
 * [Databricks Getting Started Guide](https://docs.databricks.com/) - Databricks documentation (Spark)
-
 
 ---
 ## Scalable
 * [System design questions](https://www.hiredintech.com/system-design) - Set of interview system design questions 
 * [highscalability.com](http://highscalability.com/) - Website about scalable system design practices 
-* [Mining of Massive Datasets](http://www.mmds.org/) - Stanford Computer Science course CS246: Mining Massive Datasets (and CS345A: Data Mining)
+* [Mining of Massive Datasets](http://www.mmds.org/) - CS246: Mining Massive Datasets (and CS345A: Data Mining)
 
+---
 ## Streaming
 * [Real-time syslog Processing](https://www.confluent.io/blog/real-time-syslog-processing-apache-kafka-ksql-part-1-filtering) - eal-time syslog Processing with Apache Kafka and KSQL
-* [Real-time Stock Data Pipeline](https://github.com/LuQQiu/DataPipeline) - real-time pipeline with python, kafka, Zookeeper, Cassandra, Spark, Redis, Docker, Node.js 
-* [Real-time streaming Pipeline with twitter data and GCP](https://www.datareply.co.uk/blog/2018/5/23/realtime-streaming-data-pipeline-using-google-cloud-platform-and-bokeh) - Realtime Streaming Data Pipeline using Google Cloud Platform and Bokeh
+* [Real-time Stock Data Pipeline](https://github.com/LuQQiu/DataPipeline) - real-time pipeline with python, kafka, Zookeeper, Cassandra, Spark..
+* [Real-time streaming Pipeline with twitter data and GCP](https://www.datareply.co.uk/blog/2018/5/23/realtime-streaming-data-pipeline-using-google-cloud-platform-and-bokeh) - Realtime Streaming Pipeline using GVP and Bokeh
 * [kafka to tranform a batch pipeline to real time one](https://medium.com/@stephane.maarek/how-to-use-apache-kafka-to-transform-a-batch-pipeline-into-a-real-time-one-831b48a6ad85
 ) - Using Apache Kafka Java
 * [Analytics Pipeline @ Lyst](https://cdn.oreillystatic.com/en/assets/1/event/269/Lyft_s%20analytics%20pipeline_%20From%20Redshift%20to%20Apache%20Hive%20and%20Presto%20Presentation.pdf) - Lyst data science infra
@@ -174,7 +174,6 @@ Dockerfile     | DS/DE Dockerfile
 * [Evolution of Netflix data pipeline](https://medium.com/netflix-techblog/evolution-of-the-netflix-data-pipeline-da246ca36905
 ) - evolution-of-the-netflix-data-pipeline
 * [Airstream at airbnb](https://databricks.com/session/airstream-spark-streaming-at-airbnb) - spark-streaming-at-airbnb
-
 
 ---
 ## Case Study
@@ -195,8 +194,6 @@ http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybrid
 ## Others resorces 
 * [Towards Data Science](https://towardsdatascience.com/)  
 * [Thepudding](https://pudding.cool/) 
-
-
 
 ---
 ## Dockerfile  
