@@ -1,8 +1,4 @@
 #!/bin/sh
-
-
-
-# ref 
 # https://discuss.analyticsvidhya.com/t/how-to-run-r-on-jupyter-ipython-notebooks/5512
 
 # step 1) Download Anaconda 
@@ -28,8 +24,3 @@ IRkernel::installspec()
 quit()
 # step 7) run R via ipython notebook 
 ipython notebook
-
-
-
-
-

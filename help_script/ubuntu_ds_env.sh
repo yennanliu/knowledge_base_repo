@@ -1,17 +1,5 @@
 #!/bin/sh
 
-# set up data science env in ubnutu machine 
-
-# python 
-	# DS
-	# scraping 
-# R 
-# DB 
-# JS (optional)
-# JAVA (optional)
-
-
-
 echo ""
 echo "###################################################"
 echo "This shel will setup a new Ubuntu Desktop instance as a data science env"
@@ -26,12 +14,10 @@ echo ""
 echo "###################################################"
 echo ""
 
-
 echo "Installing ubuntu via parallel desktop (mac osx)"
 echo "plz via following link : "
 """
 ###################################################
-
 
 # install ubuntu iso 
 https://www.ubuntu.com/download/desktop
@@ -113,8 +99,6 @@ sudo mv -f chromedriver /usr/local/share/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
-
-
 echo "Installing Google Chrome 58.0.3029.110 " 
 echo "###################################################"
 # install google chrome app here :
@@ -131,16 +115,3 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 chromedriver
 # check google chrome app version 
 google-chrome --version
-
-
-
-
-
-
-
-
-
-
-
-
-

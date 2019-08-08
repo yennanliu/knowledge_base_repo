@@ -1,11 +1,10 @@
 # Build local DS env on mac OS X 
 # start with  anaconda3 python 3
 
-
 #############  install anaconda3 ################
 
 FROM continuumio/anaconda3
-MAINTAINER "???"
+MAINTAINER "yennj12"
 
 #############  install library ################
 
@@ -16,7 +15,6 @@ RUN apt-get update && apt-get install -y libgtk2.0-dev &&  apt-get install wget\
     /opt/conda/bin/conda install numpy pandas scikit-learn matplotlib seaborn pyyaml h5py keras -y && \
     /opt/conda/bin/conda upgrade dask && \
     pip install tensorflow imutils numpy scipy pandas matplotlib seaborn
-
 
 #############  run commands  ################
 
@@ -31,19 +29,6 @@ EXPOSE 8888 6006
 # Store notebooks in this mounted directory
 VOLUME /notebooks
 
-
 #############  run notebook  ################
 
 CMD ["/run_jupyter.sh"]
-
-
-
-
-
-
-
-
-
-
-
-

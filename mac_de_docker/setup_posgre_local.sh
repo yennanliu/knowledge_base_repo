@@ -1,15 +1,12 @@
 #!/bin/sh
-
 # download psql, posgre, sample data locally on OSX 
 # http://postgresguide.com/setup/example.html
-
 # 1) Download posgre, psql
 # https://wiki.postgresql.org/wiki/Homebrew
 # https://postgresapp.com/
 # http://postgresguide.com/setup/install.html
 echo '>>> STEP 1 Download posgre, psql'
 brew install postgresql
-
 
 # 2) Run Posgre server local 
 echo '>>> STEP 2 Run Posgre server local '
@@ -34,7 +31,6 @@ echo 'TABLE LIST :'
 psql  --dbname pgguide  -c "\d"
 echo 'DEMO QUERY :'
 psql  --dbname pgguide  -c "select * from products;"
-
 
 # 5) work with posgre via CLI 
 echo '>>> STEP 5 work with posgre via CLI'

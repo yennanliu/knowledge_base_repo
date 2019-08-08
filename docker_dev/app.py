@@ -1,8 +1,3 @@
-# python 2.7 
-
-
-
-
 from flask import Flask
 from redis import Redis, RedisError
 import os

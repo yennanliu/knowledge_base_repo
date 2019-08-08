@@ -1,7 +1,6 @@
 ########## modify from Jupyter docker ##########
 # https://github.com/jupyter/docker-stacks/blob/master/pyspark-notebook/Dockerfile
 
-
 # Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 ARG BASE_CONTAINER=jupyter/scipy-notebook
@@ -23,7 +22,6 @@ RUN apt-get -y update && \
 
 #RUN \
 #    apt-get install -y postgresql
-
 
 RUN cd /tmp && \
         wget -q http://mirrors.ukfast.co.uk/sites/ftp.apache.org/spark/spark-${APACHE_SPARK_VERSION}/spark-${APACHE_SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz && \
@@ -74,12 +72,6 @@ RUN conda install --quiet -y 'pyarrow' && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
-
-
 #############  run a test posgre query  ################
 
 ENTRYPOINT ["/bin/bash", "/setup_posgre_local.sh"]
-
-
-
-
