@@ -96,6 +96,7 @@ Dockerfile     | DS/DE Dockerfile
 * [Dive into Deep Learning](http://en.diveintodeeplearning.org/index.html) - An interactive deep learning book for students, engineers, and researchers.
 * [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - Dive into Deep Learning in ZH.
 * [seedbank (google research)](https://research.google.com/seedbank/) - Collection of Interactive Machine Learning Examples and can run on google colab. 
+* [Full Stack Deep Learning)](https://fullstackdeeplearning.com/march2019?fbclid=IwAR3uYSRdeEZlhktSKG-CsXoqiCZH_M9HMQrX2_g0HiNvi7XWOWelB3qF15A) - Spring 2019 Full Stack Deep Learning Bootcamp. 
 
 ---
 ## Statistics 
