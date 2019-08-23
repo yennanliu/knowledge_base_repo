@@ -24,7 +24,7 @@ Statistics | Statistics Learning / Probability
 Algorithm   | foundamental CS Algorithm collections 
 Database  |  RDBMS / NoSQL  
 ETL  |  Airflow 
-AWS | Intro AWS EB/RDS/EC2 
+AWS | Intro AWS EB/RDS/EC2/Lambda/Kinesis
 GCP | Intro to GCP  
 Docker |  Docker intro / docker playgrond (play with docker)
 System Design |  system design note 
@@ -134,6 +134,8 @@ Dockerfile     | DS/DE Dockerfile
 ---
 ## AWS 
 * [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
+* [AWS Lambda tutorial](https://www.tutorialspoint.com/aws_lambda/index.htm)
+* [AWS Kinesis tutorial](https://medium.com/faun/creating-a-realtime-analytics-event-processing-system-for-big-data-using-amazon-kinesis-756f5e5d1abf)
 
 ---
 ## GCP
