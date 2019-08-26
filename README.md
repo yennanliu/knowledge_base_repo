@@ -97,6 +97,7 @@ Dockerfile     | DS/DE Dockerfile
 * [Dive into Deep Learning (Zh version)](https://zh.diveintodeeplearning.org) - Dive into Deep Learning in ZH.
 * [seedbank (google research)](https://research.google.com/seedbank/) - Collection of Interactive Machine Learning Examples and can run on google colab. 
 * [Full Stack Deep Learning)](https://fullstackdeeplearning.com/march2019?fbclid=IwAR3uYSRdeEZlhktSKG-CsXoqiCZH_M9HMQrX2_g0HiNvi7XWOWelB3qF15A) - Spring 2019 Full Stack Deep Learning Bootcamp. 
+* [CS231n](http://cs231n.stanford.edu/syllabus.html?fbclid=IwAR2TN8zKSd7DbWZ1ghrCsNGNPYB5wi4nFLXoifyj52BXCUzy-ddJWGznNQI) - Convolutional Neural Networks for Visual Recognition
 
 ---
 ## Statistics 
@@ -123,6 +124,10 @@ Dockerfile     | DS/DE Dockerfile
 * [PostgreSQL Intro](https://www.tutorialspoint.com/postgresql/postgresql_functions.htm) - PostgreSQL Tutorial
 * [Dataquest DE](https://www.dataquest.io/path/data-engineer
 ) - data-engineer Tutorial
+* [pgmodeler](https://github.com/pgmodeler/pgmodeler) - UI for postgresql data modeling (generate DDL)
+* [Hbase](https://mapr.com/products/apache-hbase/) - Nosql DB for Hadoop
+* [Hive](https://hive.apache.org/) - data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL
+* [Hadoop](https://hadoop.apache.org/) - framework that allows for the distributed processing of large data sets across clusters of computers 
 
 ---
 ## ETL 
