@@ -22,7 +22,7 @@ Programming | Python / R / Shell & Linux / Javascript / Java
 Machine Learning  | ML / DL 
 Statistics | Statistics Learning / Probability 
 Algorithm   | foundamental CS Algorithm collections 
-Database  |  RDBMS / NoSQL  
+Database  |  RDBMS / NoSQL / data warehouse 
 ETL  |  Airflow 
 AWS | Intro AWS EB/RDS/EC2/Lambda/Kinesis
 GCP | Intro to GCP  
@@ -128,6 +128,8 @@ Dockerfile     | DS/DE Dockerfile
 * [Hbase](https://mapr.com/products/apache-hbase/) - Nosql DB for Hadoop
 * [Hive](https://hive.apache.org/) - data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL
 * [Hadoop](https://hadoop.apache.org/) - framework that allows for the distributed processing of large data sets across clusters of computers 
+* [Redshift table design](https://docs.aws.amazon.com/en_us/redshift/latest/dg/tutorial-tuning-tables.html) - AWS Tutorial: Tuning Table Design (Star Schema Benchmark (SSB) schema without sort keys, distribution styles, and compression encodings) 
+* [Redshift best practices](https://docs.aws.amazon.com/en_us/redshift/latest/dg/c_designing-tables-best-practices.html) - AWS Tutorial: Summary of the most important design decisions and presents best practices for optimizing query performance. Designing Tables provides more detailed explanations and examples of table design options.
 
 ---
 ## ETL 
