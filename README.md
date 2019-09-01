@@ -163,6 +163,7 @@ Dockerfile     | DS/DE Dockerfile
 ---
 ## Spark 
 * [Databricks Getting Started Guide](https://docs.databricks.com/) - Databricks documentation (Spark)
+* [Hadoop ecosystem intro ](https://ithelp.ithome.com.tw/users/20107349/ironman/1309?page=1) - Hadoop, Hbase, Spark, Spark-submit, Hive intro 30 days series
 
 ---
 ## Scalable
