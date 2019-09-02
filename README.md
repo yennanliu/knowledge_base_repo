@@ -143,6 +143,7 @@ Dockerfile     | DS/DE Dockerfile
 * [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
 * [AWS Lambda tutorial](https://www.tutorialspoint.com/aws_lambda/index.htm)
 * [AWS Kinesis tutorial](https://medium.com/faun/creating-a-realtime-analytics-event-processing-system-for-big-data-using-amazon-kinesis-756f5e5d1abf)
+* [AWS Kinesis tutorial (zh)](https://leemeng.tw/use-kinesis-streams-and-firehose-to-build-a-data-lake.html)
 
 ---
 ## GCP
