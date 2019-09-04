@@ -13,6 +13,7 @@ ENV HADOOP_VERSION 2.7
 
 RUN apt-get -y update && \
     apt-get install --no-install-recommends -y openjdk-8-jre-headless ca-certificates-java && \
+    apt-get install -y git && \ 
     rm -rf /var/lib/apt/lists/*
 
 RUN cd /tmp && \
