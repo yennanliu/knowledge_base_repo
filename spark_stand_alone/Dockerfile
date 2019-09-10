@@ -18,7 +18,7 @@ RUN sed -i 's|'$(cat curr_version.tmp)'/main|'$ALPINE_OLD_VERSION'/main|' \
     /etc/apk/repositories && \
     rm curr_version.tmp
 # Upgrading pip to the last compatible version
-RUN pip3 install --upgrade pip
+RUN pip3 install --upgrade pip && pip3 install -r requirements.txt
 
 # Installing IPython
 RUN pip install ipython 
