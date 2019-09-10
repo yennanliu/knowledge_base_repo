@@ -27,7 +27,7 @@ RUN pip install ipython
 
 RUN apk update && \
     apk add curl && \
-    apk add bash
+    apk add bash git openssh
 
 # HADOOP
 
