@@ -130,6 +130,7 @@ Dockerfile     | DS/DE Dockerfile
 * [Hadoop](https://hadoop.apache.org/) - framework that allows for the distributed processing of large data sets across clusters of computers 
 * [Redshift table design](https://docs.aws.amazon.com/en_us/redshift/latest/dg/tutorial-tuning-tables.html) - AWS Tutorial: Tuning Table Design (Star Schema Benchmark (SSB) schema without sort keys, distribution styles, and compression encodings) 
 * [Redshift best practices](https://docs.aws.amazon.com/en_us/redshift/latest/dg/c_designing-tables-best-practices.html) - AWS Tutorial: Summary of the most important design decisions and presents best practices for optimizing query performance. Designing Tables provides more detailed explanations and examples of table design options.
+* [Postgre Window function ](http://www.postgresqltutorial.com/postgresql-window-function/) - go through operations like `min/max group value`, `rank/denseRank`,`lag/lead` with Postgre window function 
 
 ---
 ## ETL 
