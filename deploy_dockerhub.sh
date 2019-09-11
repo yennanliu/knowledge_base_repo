@@ -6,7 +6,7 @@
 
 echo ' ---------------- DEPLOY TO DOCKER HUB ----------------'
 
-declare -a docker_images=("pyspark_notebook_docker/.")
+declare -a docker_images=("spark_stand_alone/.")
 #REGISTRY_USER=$(echo ${REGISTRY_USER})
 #REGISTRY_PASS=$(echo ${REGISTRY_PASS})
 echo "$REGISTRY_PASS" | docker login  --username $REGISTRY_USER --password $REGISTRY_PASS && echo "docker login OK" || echo "docker login failed"
