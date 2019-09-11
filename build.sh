@@ -14,5 +14,5 @@ for docker_image in "${docker_images[@]}"
     # docker build 
     echo 'docker bulid : ' $docker_image  && docker build $docker_image -t $instance_name   
     # run test 
-    #docker run -it $instance_name  echo 'docker test 123'  
+    docker run -it $instance_name  echo 'docker test 123'  
   done 

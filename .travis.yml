@@ -11,6 +11,8 @@ env:
 
 script:
   - echo ' -----------------  BUILD IMAGES ----------------- ' && bash build.sh
+  - docker ps -a 
+  - docker images
 
 before_deploy:
 
