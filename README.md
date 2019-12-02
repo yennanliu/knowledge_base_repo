@@ -40,6 +40,7 @@ Dockerfile     | DS/DE Dockerfile
 ## Programming 
 ### Python 
 * [Python official intro](https://docs.python.org/3/tutorial/)
+* [Python central tutorial](https://www.pythoncentral.io/)
 * [Python udacity](https://www.udacity.com/course/introduction-to-python--ud1110)
 * [Python codecademy](https://www.codecademy.com/learn/learn-python)
 * [101 NumPy Exercises](https://www.machinelearningplus.com/101-numpy-exercises-python/)
@@ -55,6 +56,9 @@ Dockerfile     | DS/DE Dockerfile
 ### Java
 * [Codecademy Java](https://www.codecademy.com/learn/learn-java)
 * [Intro to Java](https://www.tutorialspoint.com/java/index.htm)
+
+### Scala
+* [Scala tutorialspoint](https://www.tutorialspoint.com/scala/index.htm)
 
 ### Shell & Linux
 * [Bash scripting cheatsheet](https://devhints.io/bash?fbclid=IwAR1NEFjIIbOCpuVpHkgg8cIlAC_ZUoEmI386lruCjRB1SBsjofdjlnweNfQ)
