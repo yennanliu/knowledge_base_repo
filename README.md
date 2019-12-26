@@ -46,6 +46,7 @@ Dockerfile     | DS/DE Dockerfile
 * [101 NumPy Exercises](https://www.machinelearningplus.com/101-numpy-exercises-python/)
 * [Getting Started With Testing in Python](https://realpython.com/python-testing/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
 * [Learn functional pyhton in 10 munute](https://hackernoon.com/learn-functional-python-in-10-minutes-to-2d1651dece6f?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+* [Python exceptions](https://realpython.com/python-exceptions/)
 
 ### Javascript 
 * [Intro to Javascript](https://www.w3schools.com/js/)
@@ -59,6 +60,8 @@ Dockerfile     | DS/DE Dockerfile
 
 ### Scala
 * [Scala tutorialspoint](https://www.tutorialspoint.com/scala/index.htm)
+* [Scala school (Twitter)](https://twitter.github.io/scala_school/)
+* [Intro to Scala](https://stepik.org/course/16243/promo)
 
 ### Shell & Linux
 * [Bash scripting cheatsheet](https://devhints.io/bash?fbclid=IwAR1NEFjIIbOCpuVpHkgg8cIlAC_ZUoEmI386lruCjRB1SBsjofdjlnweNfQ)
