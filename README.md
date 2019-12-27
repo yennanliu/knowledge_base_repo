@@ -202,8 +202,11 @@ Dockerfile     | DS/DE Dockerfile
 https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
 ) Architecture (data) @ Netflix/Airbnb/Twitter..
 * [The Waiting Time Paradox, or, Why Is My Bus Always Late?](
-http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
-) 
+http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more) 
+* [Netflix billing migration to AWS part - 1](https://medium.com/netflix-techblog/netflix-billing-migration-to-aws-451fba085a4) 
+* [Netflix billing migration to AWS part - 2](https://medium.com/netflix-techblog/netflix-billing-migration-to-aws-part-ii-834f6358126) 
+* [Netflix billing migration to AWS part - 3](https://medium.com/netflix-techblog/netflix-billing-migration-to-aws-part-iii-7d94ab9d1f59) 
+
 
 ---
 ## Competition
