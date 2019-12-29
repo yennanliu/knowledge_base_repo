@@ -168,6 +168,10 @@ Dockerfile     | DS/DE Dockerfile
 ## System design
 * [System design primer](https://github.com/donnemartin/system-design-primer
 ) 
+* [CS 245 - Principles of Data-Intensive Systems](https://web.stanford.edu/class/cs245/spr2019/?fbclid=IwAR0osgNU0lQxmOhsfOQyYksoG9GLkA1xXVT-y3OvlXPfdKzuVZjFdfDWv3g)
+* [A Beginner’s Guide to Data Engineering — Part I](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7)
+* [A Beginner’s Guide to Data Engineering — Part II](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-ii-47c4e7cbda71?)
+* [A Beginner’s Guide to Data Engineering — Part III](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-the-series-finale-2cc92ff14b0)
 
 ---
 ## Spark 
