@@ -186,6 +186,7 @@ Dockerfile     | DS/DE Dockerfile
 * [Mining of Massive Datasets](http://www.mmds.org/) - CS246: Mining Massive Datasets (and CS345A: Data Mining)
 * [CS 246 video](http://snap.stanford.edu/class/cs246-videos-2019/) - CS246: Mining Massive Datasets 
 * [CS 345 A ](http://infolab.stanford.edu/~ullman/mining/2009/index.html) -CS345A Winter 2009: Data Mining
+* [CS 246H](https://web.stanford.edu/class/cs246h/handouts.html) - Labd of CS 246
 
 ---
 ## Streaming
