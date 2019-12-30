@@ -184,6 +184,8 @@ Dockerfile     | DS/DE Dockerfile
 * [System design questions](https://www.hiredintech.com/system-design) - Set of interview system design questions 
 * [highscalability.com](http://highscalability.com/) - Website about scalable system design practices 
 * [Mining of Massive Datasets](http://www.mmds.org/) - CS246: Mining Massive Datasets (and CS345A: Data Mining)
+* [CS 246 video](http://snap.stanford.edu/class/cs246-videos-2019/) - CS246: Mining Massive Datasets 
+* [CS 345 A ](http://infolab.stanford.edu/~ullman/mining/2009/index.html) -CS345A Winter 2009: Data Mining
 
 ---
 ## Streaming
