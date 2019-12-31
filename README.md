@@ -55,27 +55,27 @@ Dockerfile     | DS/DE Dockerfile
 * [Jquery VS Javascript](http://youmightnotneedjquery.com/) - comparison between using Jquery VS Javascript
 
 ### Java
-* [Codecademy Java](https://www.codecademy.com/learn/learn-java)
-* [Intro to Java](https://www.tutorialspoint.com/java/index.htm)
+* [Codecademy Java](https://www.codecademy.com/learn/learn-java) - Codecademy Java tutorial
+* [Intro to Java](https://www.tutorialspoint.com/java/index.htm) - tutorialspoint Java tutorial
 
 ### Scala
-* [Scala tutorialspoint](https://www.tutorialspoint.com/scala/index.htm)
-* [Scala school (Twitter)](https://twitter.github.io/scala_school/)
-* [Intro to Scala](https://stepik.org/course/16243/promo)
+* [Scala tutorialspoint](https://www.tutorialspoint.com/scala/index.htm) - tutorialspoint Scala tutorial
+* [Scala school (Twitter)](https://twitter.github.io/scala_school/) - Twitter Scala tutorial
+* [Intro to Scala](https://stepik.org/course/16243/promo) - Online Scala course
 
 ### Shell & Linux
-* [Bash scripting cheatsheet](https://devhints.io/bash?fbclid=IwAR1NEFjIIbOCpuVpHkgg8cIlAC_ZUoEmI386lruCjRB1SBsjofdjlnweNfQ)
-* [Intro to Linux/Unix](https://www.tutorialspoint.com/unix/index.htm)
+* [Bash scripting cheatsheet](https://devhints.io/bash?fbclid=IwAR1NEFjIIbOCpuVpHkgg8cIlAC_ZUoEmI386lruCjRB1SBsjofdjlnweNfQ) - bash/shell scripting cheatsheet
+* [Intro to Linux/Unix](https://www.tutorialspoint.com/unix/index.htm) - tutorialspoint Linux/Unix tutorial 
 * [Command line Challenge](https://cmdchallenge.com/#/hello_world
-)
+) - Test how is your CLI (bash/shell) skill
 
 ### R 
 * [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
 
 ### Computer Science 
-* [Intro to CS](https://github.com/ossu/computer-science)
-* [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
-* [Leetcode](https://github.com/yennanliu/CS_basics)
+* [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu) - CS 50 course
+* [Intro to CS](https://github.com/ossu/computer-science) - OSSU CS course
+* [Leetcode](https://github.com/yennanliu/CS_basics) - Leetcode
 
 ---
 ## ML 
