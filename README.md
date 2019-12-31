@@ -49,10 +49,10 @@ Dockerfile     | DS/DE Dockerfile
 * [Python exceptions](https://realpython.com/python-exceptions/) - learn how to handle exceptions in python 
 
 ### Javascript 
-* [Intro to Javascript](https://www.w3schools.com/js/)
-* [Codecademy Javascript](https://www.codecademy.com/learn/introduction-to-javascript)
-* [Intro to Node.Js](https://www.w3schools.com/nodejs/default.asp)
-* [Jquery VS Javascript](http://youmightnotneedjquery.com/)
+* [Intro to Javascript](https://www.w3schools.com/js/) - w3schools JS tutorial
+* [Codecademy Javascript](https://www.codecademy.com/learn/introduction-to-javascript) - Codecademy JS tutorial
+* [Intro to Node.Js](https://www.w3schools.com/nodejs/default.asp) - Intro to Node.Js (JS full stack framework)
+* [Jquery VS Javascript](http://youmightnotneedjquery.com/) - comparison between using Jquery VS Javascript
 
 ### Java
 * [Codecademy Java](https://www.codecademy.com/learn/learn-java)
