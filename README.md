@@ -10,7 +10,7 @@
 
 - Repo for learning data-science / data engineering. 
 - Topics 
-	- Programming basics : (python/Java/Shell/R), Algorithm
+	- [Programming](https://github.com/yennanliu/data_science_repo#Programming) : (python/Java/Shell/R), Algorithm
 	- DS basics : Statistics, ML, DL. DB 
 	- DE basics : system design, cloud services, ETL, Scalability
 	- DE/DE env : Dockerfile
@@ -18,7 +18,7 @@
 
 Reference | Comments  
 ------------ | -------------
-[ https://github.com/yennanliu/data_science_repo#Programming ](Programming) | Python / R / Shell & Linux / Javascript / Java  
+Programming | Python / R / Shell & Linux / Javascript / Java  
 Machine Learning  | ML / DL 
 Statistics | Statistics Learning / Probability 
 Algorithm   | foundamental CS Algorithm collections 
