@@ -1,20 +1,30 @@
 
-## Intro
+<h1 align="center">Data_Science_Repo</h1>
+<h4 align="center">Repo for data science/engineering learning</h4>
 
-[![Build Status](https://travis-ci.org/yennanliu/data_science_repo.svg?branch=master)](https://travis-ci.org/yennanliu/data_science_repo)
-[![PRs](https://img.shields.io/badge/PRs-welcome-6574cd.svg)](https://github.com/yennanliu/data_science_repo/pulls)
-[![Binder](https://img.shields.io/badge/launch-Jupyter-5eba00.svg)](https://mybinder.org/v2/gh/yennanliu/data_science_repo/master)
-[![Rmotr](https://img.shields.io/badge/launch-Rmotr-cd201f.svg)](https://notebooks.rmotr.com/yennanliu/data_science_repo-b857822c)
-[![Colab](https://img.shields.io/badge/launch-Google%20Colab-45aaf2.svg)](https://colab.research.google.com/github/yennanliu/data_science_repo/blob/master/demo.ipynb)
-[![MIT](https://img.shields.io/badge/license-MIT-f1c40f.svg)](https://github.com/yennanliu/data_science_repo/blob/master/LICENSE)
+<p align="center">
+<!--- travis -->
+<a href="https://travis-ci.com/yennanliu/data_science_repo"><img src="https://travis-ci.com/yennanliu/data_science_repo.svg?branch=master"></a>
+<!--- PR -->
+<a href="https://github.com/yennanliu/data_science_repo/pulls"><img src="https://img.shields.io/badge/PRs-welcome-6574cd.svg"></a>
+<!--- notebooks mybinder -->
+<a href="https://mybinder.org/v2/gh/yennanliu/data_science_repo/master"><img src="https://mybinder.org/badge_logo.svg"></a>
+<!--- colab -->
+<a href="https://colab.research.google.com/github/yennanliu/data_science_repo/blob/master/demo.ipynb"><img src="https://img.shields.io/badge/launch-Google%20Colab-45aaf2.svg"></a>
+<!--- hit count -->
+<a href="http://hits.dwyl.io/yennanliu/data_science_repo"><img src="http://hits.dwyl.io/yennanliu/data_science_repo.svg"></a>
+<!--- MIT -->
+<a href="https://github.com/yennanliu/data_science_repo/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-f1c40f.svg"></a>
+</p>
 
-- Repo for learning data-science / data engineering. 
-- Topics 
-	- Programming : (python/Java/Shell/R), Algorithm
-	- DS basics : Statistics, ML, DL. DB 
-	- DE basics : system design, cloud services, ETL, Scalability
-	- DE/DE env : Dockerfile
-	- Case study 
+## Topics 
+- Programming : (python/Java/Shell/R), Algorithm
+- DS basics : Statistics, ML, DL. DB 
+- DE basics : system design, cloud services, ETL, Scalability
+- DE/DE env : Dockerfile
+- Case study 
+
+## Contents
 
 Reference | Comments  
 ------------ | -------------
