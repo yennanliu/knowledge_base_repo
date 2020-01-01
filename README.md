@@ -21,7 +21,7 @@ Reference | Comments
 [Programming](https://github.com/yennanliu/data_science_repo#Programming) | Python / R / Shell & Linux / Javascript / Java  
 [Machine Learning](https://github.com/yennanliu/data_science_repo#ML) | ML / DL 
 [Statistics](https://github.com/yennanliu/data_science_repo#Statistics)| Statistics Learning / Probability 
-[Algorithm]((https://github.com/yennanliu/data_science_repo#Algorithm))  | foundamental CS Algorithm collections 
+[Algorithm](https://github.com/yennanliu/data_science_repo#Algorithm)  | foundamental CS Algorithm collections 
 [Database](https://github.com/yennanliu/data_science_repo#Database)  |  RDBMS / NoSQL / data warehouse 
 [ETL](https://github.com/yennanliu/data_science_repo#ETL)  |  Airflow 
 [AWS](https://github.com/yennanliu/data_science_repo#AWS)| Intro AWS EB/RDS/EC2/Lambda/Kinesis
@@ -33,7 +33,7 @@ Reference | Comments
 [Streaming](https://github.com/yennanliu/data_science_repo#Streaming)  | Streaming intro 
 [Case-Study](https://github.com/yennanliu/data_science_repo#Case-Study)|  various DS/DE case sharing  
 [Competition](https://github.com/yennanliu/data_science_repo#Competition) |  DS Competitions  
-[Other Resources](https://github.com/yennanliu/data_science_repo#Other-Resourses) |  some other information 
+[Other Resources](https://github.com/yennanliu/data_science_repo#Other-Resources) |  some other information 
 [Dockerfile](https://github.com/yennanliu/data_science_repo#Dockerfile)     | DS/DE Dockerfile  
 
 ---
@@ -220,7 +220,7 @@ http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybrid
 * [numer.ai](https://numer.ai/homepage) - another data science competition platform
  
 ---
-## Others-Resorces 
+## Other-Resources 
 * [Towards Data Science](https://towardsdatascience.com/) - DS blog for Sharing concepts, ideas, and codes   
 * [Thepudding](https://pudding.cool/) - The Pudding is a digital publication that explains ideas debated in culture with visual essays. (DS/data visualization/insights)
 
