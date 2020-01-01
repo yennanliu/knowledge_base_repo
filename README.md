@@ -184,6 +184,7 @@ Reference | Comments
 
 ---
 ## Spark 
+* [CS 246 : Spark Tutorial](http://snap.stanford.edu/class/cs246-videos-2019/190110-cs246-rs-720.mp4)
 * [Databricks Getting Started Guide](https://docs.databricks.com/) - Databricks documentation (Spark)
 * [Hadoop ecosystem intro ](https://ithelp.ithome.com.tw/users/20107349/ironman/1309?page=1) - Hadoop, Hbase, Spark, Spark-submit, Hive intro 30 days series
 * [Spark tutorial](https://data-flair.training/blogs/spark-tutorial/) - Spark Tutorial – Learn Spark Programming
