@@ -108,21 +108,20 @@ Dockerfile     | DS/DE Dockerfile
 
 ---
 ## Statistics 
-* [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm)
-* [intro2stats](https://github.com/rouseguy/intro2stats)
-* [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial)
-* [Statistics Rethinking](https://bookdown.org/connect/#/apps/1850/access)
-* [Statistics Rethinking Repo](https://github.com/ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse)
-* [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/)
-* [A/B Testing: The Definitive Guide to improve your prod](https://www.dataquest.io/blog/a-b-testing-the-definitive-guide-to-improving-your-product/?fbclid=IwAR3wsD1mUvahqJTe56oWi6GzSVHhJ0pgr7_V8Q2Fbbbe2_UlT5jXbPdnp_w)
-* [A/B Testing Udacity ](https://eu.udacity.com/course/ab-testing--ud257?fbclid=IwAR0WHBVd1g-rnifuKq_cshHHM3I2K_KXrRYbLCUni0hnBHaMIAUdF5XmwZQ)
-* [Customer Analytics & A/B Testing in Python ](https://www.datacamp.com/courses/customer-analytics-ab-testing-in-python)
-* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/)
-
+* [Intro to Statistics](https://www.tutorialspoint.com/statistics/index.htm) - tutorialspoint statistics tutorial
+* [intro2stats](https://github.com/rouseguy/intro2stats) - Introduction to Statistics using Python
+* [Stats in python ](https://github.com/fonnesbeck/statistical-analysis-python-tutorial) - statistical analysis python tutorial
+* [Statistics Rethinking](https://bookdown.org/connect/#/apps/1850/access) - Statistical Rethinking with brms, ggplot2 
+* [Statistics Rethinking Repo](https://github.com/ASKurz/Statistical_Rethinking_with_brms_ggplot2_and_the_tidyverse) - Github repo for  Statistical Rethinking
+* [Intermediate Statistics (Lecture 13 : Bootstrap)](http://www.stat.cmu.edu/~larry/=stat705/) - CMU 36-705 Intermediate Statistics
+* [A/B Testing: The Definitive Guide to improve your prod](https://www.dataquest.io/blog/a-b-testing-the-definitive-guide-to-improving-your-product/?fbclid=IwAR3wsD1mUvahqJTe56oWi6GzSVHhJ0pgr7_V8Q2Fbbbe2_UlT5jXbPdnp_w) - Dataquest's A/B test intro
+* [A/B Testing Udacity ](https://eu.udacity.com/course/ab-testing--ud257?fbclid=IwAR0WHBVd1g-rnifuKq_cshHHM3I2K_KXrRYbLCUni0hnBHaMIAUdF5XmwZQ) - Udacity A/B test course
+* [Customer Analytics & A/B Testing in Python ](https://www.datacamp.com/courses/customer-analytics-ab-testing-in-python) - Do Customer Analytics via python
+* [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/) - Intuitive statistical calculators, ideal for planning and analyzing A/B tests
 ---
 ## Algorithm
-* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) 
-* [CS basics](https://github.com/yennanliu/CS_basics) 
+* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) - NTNU's Algorithm note 
+* [CS basics](https://github.com/yennanliu/CS_basics) - My repo for Algorithm/Data structure learning (and leetcode) 
 
 ---
 ## Database 
@@ -148,30 +147,30 @@ Dockerfile     | DS/DE Dockerfile
 
 ---
 ## AWS 
-* [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
-* [AWS Lambda tutorial](https://www.tutorialspoint.com/aws_lambda/index.htm)
-* [AWS Kinesis tutorial](https://medium.com/faun/creating-a-realtime-analytics-event-processing-system-for-big-data-using-amazon-kinesis-756f5e5d1abf)
-* [AWS Kinesis tutorial (zh)](https://leemeng.tw/use-kinesis-streams-and-firehose-to-build-a-data-lake.html)
+* [Intro how to deploy a flask APP via AWS EB/RDS/EC2](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80) - Blog intro how to deploy flask web app to AWS
+* [AWS Lambda tutorial](https://www.tutorialspoint.com/aws_lambda/index.htm) - tutorialspoint AWS Lambda tutorial 
+* [AWS Kinesis tutorial](https://medium.com/faun/creating-a-realtime-analytics-event-processing-system-for-big-data-using-amazon-kinesis-756f5e5d1abf)  - create a real-time processing system, via AWS Kinesis
+* [AWS Kinesis tutorial (zh)](https://leemeng.tw/use-kinesis-streams-and-firehose-to-build-a-data-lake.html) - another AWS Kinesis tutorial in ZH
 
 ---
 ## GCP
-* [GCP tutorial](https://cloud.google.com/docs/tutorials)
+* [GCP tutorial](https://cloud.google.com/docs/tutorials) - google official GCP tutorial
 
 ---
 ## Docker 
-* [PLAY WITH DOCKER](https://labs.play-with-docker.com/)
-* [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial)
+* [PLAY WITH DOCKER](https://labs.play-with-docker.com/) - An online free env build/test docker
+* [How Docker Help You Be Effective Data Scientist](https://github.com/hamelsmu/Docker_Tutorial) - Intro how does docker can help DS project
 * [docker-workshop - Set up DB Docker](https://github.com/InsightDataScience/docker-workshop/blob/master/chapter3/README.md)
 * [katacoda](https://katacoda.com/) - Learn new technologies (docker, k8s...) using real environments right in your browser 
 
 ---
 ## System design
 * [System design primer](https://github.com/donnemartin/system-design-primer
-) 
-* [CS 245 - Principles of Data-Intensive Systems](https://web.stanford.edu/class/cs245/spr2019/?fbclid=IwAR0osgNU0lQxmOhsfOQyYksoG9GLkA1xXVT-y3OvlXPfdKzuVZjFdfDWv3g)
-* [A Beginner’s Guide to Data Engineering — Part I](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7)
-* [A Beginner’s Guide to Data Engineering — Part II](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-ii-47c4e7cbda71?)
-* [A Beginner’s Guide to Data Engineering — Part III](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-the-series-finale-2cc92ff14b0)
+) - Awesome repo for System design learning
+* [CS 245 - Principles of Data-Intensive Systems](https://web.stanford.edu/class/cs245/spr2019/?fbclid=IwAR0osgNU0lQxmOhsfOQyYksoG9GLkA1xXVT-y3OvlXPfdKzuVZjFdfDWv3g) Stanford CS 245 course : Principles of Data-Intensive Systems
+* [A Beginner’s Guide to Data Engineering — Part I](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c457d7) - DE intro part I from Airbnb's data scientist
+* [A Beginner’s Guide to Data Engineering — Part II](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-ii-47c4e7cbda71?) - DE intro part II from Airbnb's data scientist
+* [A Beginner’s Guide to Data Engineering — Part III](https://medium.com/@rchang/a-beginners-guide-to-data-engineering-the-series-finale-2cc92ff14b0) DE intro part III from Airbnb's data scientist
 
 ---
 ## Spark 
@@ -214,17 +213,16 @@ http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybrid
 * [Netflix billing migration to AWS part - 2](https://medium.com/netflix-techblog/netflix-billing-migration-to-aws-part-ii-834f6358126) 
 * [Netflix billing migration to AWS part - 3](https://medium.com/netflix-techblog/netflix-billing-migration-to-aws-part-iii-7d94ab9d1f59) 
 
-
 ---
 ## Competition
-* [Kaggle](https://www.kaggle.com/) 
-* [Quantopian](https://www.quantopian.com/home) 
-* [numer.ai](https://numer.ai/homepage) 
+* [Kaggle](https://www.kaggle.com/) - worlds' biggest data science competition platform
+* [Quantopian](https://www.quantopian.com/home) - Quant competition platform for developers 
+* [numer.ai](https://numer.ai/homepage) - another data science competition platform
  
 ---
 ## Others resorces 
-* [Towards Data Science](https://towardsdatascience.com/)  
-* [Thepudding](https://pudding.cool/) 
+* [Towards Data Science](https://towardsdatascience.com/) - DS blog for Sharing concepts, ideas, and codes   
+* [Thepudding](https://pudding.cool/) - The Pudding is a digital publication that explains ideas debated in culture with visual essays. (DS/data visualization/insights)
 
 ---
 ## Dockerfile  
