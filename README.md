@@ -10,7 +10,7 @@
 
 - Repo for learning data-science / data engineering. 
 - Topics 
-	- [Programming](https://github.com/yennanliu/data_science_repo#Programming) : (python/Java/Shell/R), Algorithm
+	- Programming : (python/Java/Shell/R), Algorithm
 	- DS basics : Statistics, ML, DL. DB 
 	- DE basics : system design, cloud services, ETL, Scalability
 	- DE/DE env : Dockerfile
@@ -19,22 +19,22 @@
 Reference | Comments  
 ------------ | -------------
 [Programming](https://github.com/yennanliu/data_science_repo#Programming) | Python / R / Shell & Linux / Javascript / Java  
-Machine Learning  | ML / DL 
-Statistics | Statistics Learning / Probability 
-Algorithm   | foundamental CS Algorithm collections 
-Database  |  RDBMS / NoSQL / data warehouse 
-ETL  |  Airflow 
-AWS | Intro AWS EB/RDS/EC2/Lambda/Kinesis
-GCP | Intro to GCP  
-Docker |  Docker intro / docker playgrond (play with docker)
-System Design |  system design note 
-Spark   | Spark basics/pipeline/ML intro 
-Scalable   | Scalable  note 
-Streaming   | Streaming intro 
-Case Study |  various DS/DE case sharing  
-Competition |  DS Competitions  
-Other Resources |  some other information 
-Dockerfile     | DS/DE Dockerfile  
+[Machine Learning](https://github.com/yennanliu/data_science_repo#ML) | ML / DL 
+[Statistics](https://github.com/yennanliu/data_science_repo#Statistics)| Statistics Learning / Probability 
+[Algorithm]((https://github.com/yennanliu/data_science_repo#Algorithm))  | foundamental CS Algorithm collections 
+[Database](https://github.com/yennanliu/data_science_repo#Database)  |  RDBMS / NoSQL / data warehouse 
+[ETL](https://github.com/yennanliu/data_science_repo#ETL)  |  Airflow 
+[AWS](https://github.com/yennanliu/data_science_repo#AWS)| Intro AWS EB/RDS/EC2/Lambda/Kinesis
+[GCP](https://github.com/yennanliu/data_science_repo#GCP) | Intro to GCP  
+[Docker](https://github.com/yennanliu/data_science_repo#Docker) |  Docker intro / docker playgrond (play with docker)
+[System Design](https://github.com/yennanliu/data_science_repo#System-Design) |  system design note 
+[Spark](https://github.com/yennanliu/data_science_repo#Spark)  | Spark basics/pipeline/ML intro 
+[Scalable](https://github.com/yennanliu/data_science_repo#Scalable) | Scalable  note 
+[Streaming](https://github.com/yennanliu/data_science_repo#Streaming)  | Streaming intro 
+[Case-Study](https://github.com/yennanliu/data_science_repo#Case-Study)|  various DS/DE case sharing  
+[Competition](https://github.com/yennanliu/data_science_repo#Competition) |  DS Competitions  
+[Other Resources](https://github.com/yennanliu/data_science_repo#Other-Resourses) |  some other information 
+[Dockerfile](https://github.com/yennanliu/data_science_repo#Dockerfile)     | DS/DE Dockerfile  
 
 ---
 ## Programming 
@@ -164,7 +164,7 @@ Dockerfile     | DS/DE Dockerfile
 * [katacoda](https://katacoda.com/) - Learn new technologies (docker, k8s...) using real environments right in your browser 
 
 ---
-## System design
+## System-Design
 * [System design primer](https://github.com/donnemartin/system-design-primer
 ) - Awesome repo for System design learning
 * [CS 245 - Principles of Data-Intensive Systems](https://web.stanford.edu/class/cs245/spr2019/?fbclid=IwAR0osgNU0lQxmOhsfOQyYksoG9GLkA1xXVT-y3OvlXPfdKzuVZjFdfDWv3g) Stanford CS 245 course : Principles of Data-Intensive Systems
@@ -203,7 +203,7 @@ Dockerfile     | DS/DE Dockerfile
 * [Airstream at airbnb](https://databricks.com/session/airstream-spark-streaming-at-airbnb) - spark-streaming-at-airbnb
 
 ---
-## Case Study
+## Case-Study
 * [Architecture Of Giants Data Stacks](
 https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54
 ) Architecture (data) @ Netflix/Airbnb/Twitter..
@@ -220,7 +220,7 @@ http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/?utm_source=mybrid
 * [numer.ai](https://numer.ai/homepage) - another data science competition platform
  
 ---
-## Others resorces 
+## Others-Resorces 
 * [Towards Data Science](https://towardsdatascience.com/) - DS blog for Sharing concepts, ideas, and codes   
 * [Thepudding](https://pudding.cool/) - The Pudding is a digital publication that explains ideas debated in culture with visual essays. (DS/data visualization/insights)
 
