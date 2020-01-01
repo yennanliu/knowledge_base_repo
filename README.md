@@ -18,7 +18,7 @@
 
 Reference | Comments  
 ------------ | -------------
-Programming | Python / R / Shell & Linux / Javascript / Java  
+[ https://github.com/yennanliu/data_science_repo#Programming ](Programming) | Python / R / Shell & Linux / Javascript / Java  
 Machine Learning  | ML / DL 
 Statistics | Statistics Learning / Probability 
 Algorithm   | foundamental CS Algorithm collections 
