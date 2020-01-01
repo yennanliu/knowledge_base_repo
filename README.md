@@ -4,7 +4,7 @@
 
 <p align="center">
 <!--- travis -->
-<a href="https://travis-ci.com/yennanliu/data_science_repo"><img src="https://travis-ci.com/yennanliu/data_science_repo.svg?branch=master"></a>
+<a href="https://travis-ci.org/yennanliu/data_science_repo/builds"><img src="https://travis-ci.com/yennanliu/data_science_repo.svg?branch=master"></a>
 <!--- PR -->
 <a href="https://github.com/yennanliu/data_science_repo/pulls"><img src="https://img.shields.io/badge/PRs-welcome-6574cd.svg"></a>
 <!--- notebooks mybinder -->
