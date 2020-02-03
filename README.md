@@ -57,6 +57,8 @@ Reference | Comments
 * [Getting Started With Testing in Python](https://realpython.com/python-testing/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more) - learn how to write test with python 
 * [Learn functional pyhton in 10 munute](https://hackernoon.com/learn-functional-python-in-10-minutes-to-2d1651dece6f?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more) - learn functional programming via python 
 * [Python exceptions](https://realpython.com/python-exceptions/) - learn how to handle exceptions in python 
+* [Software Testing -- Python](https://www.udacity.com/course/software-testing--cs258)
+* [Software Debugging -- Python](https://www.udacity.com/course/software-debugging--cs259)
 
 ### Javascript 
 * [Intro to Javascript](https://www.w3schools.com/js/) - w3schools JS tutorial
@@ -86,6 +88,7 @@ Reference | Comments
 * [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu) - CS 50 course
 * [Intro to CS](https://github.com/ossu/computer-science) - OSSU CS course
 * [Leetcode](https://github.com/yennanliu/CS_basics) - Leetcode
+* [Introduction to Computer Networking (Stanford)](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 
 ---
 ## ML 
@@ -147,6 +150,7 @@ Reference | Comments
 * [Redshift table design](https://docs.aws.amazon.com/en_us/redshift/latest/dg/tutorial-tuning-tables.html) - AWS Tutorial: Tuning Table Design (Star Schema Benchmark (SSB) schema without sort keys, distribution styles, and compression encodings) 
 * [Redshift best practices](https://docs.aws.amazon.com/en_us/redshift/latest/dg/c_designing-tables-best-practices.html) - AWS Tutorial: Summary of the most important design decisions and presents best practices for optimizing query performance. Designing Tables provides more detailed explanations and examples of table design options.
 * [Postgre Window function ](http://www.postgresqltutorial.com/postgresql-window-function/) - go through operations like `min/max group value`, `rank/denseRank`,`lag/lead` with Postgre window function 
+* [Database Intro (Stanford) ](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - Introduction to Databases - Self Paced Series
 
 ---
 ## ETL 
