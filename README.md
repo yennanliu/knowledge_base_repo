@@ -18,7 +18,7 @@
 </p>
 
 ## Topics 
-- Programming : (python/Java/Shell/R), Algorithm
+- Programming : Algorithm, Data Structure, CS basic, (python/Java/Shell/R)
 - DS basics : Statistics, ML, DL. DB 
 - DE basics : system design, cloud services, ETL, Scalability
 - DE/DE env : Dockerfile
@@ -31,7 +31,6 @@ Reference | Comments
 [Programming](https://github.com/yennanliu/data_science_repo#Programming) | Python / R / Shell & Linux / Javascript / Java  
 [Machine Learning](https://github.com/yennanliu/data_science_repo#ML) | ML / DL 
 [Statistics](https://github.com/yennanliu/data_science_repo#Statistics)| Statistics Learning / Probability 
-[Algorithm](https://github.com/yennanliu/data_science_repo#Algorithm)  | foundamental CS Algorithm collections 
 [Database](https://github.com/yennanliu/data_science_repo#Database)  |  RDBMS / NoSQL / data warehouse 
 [ETL](https://github.com/yennanliu/data_science_repo#ETL)  |  Airflow 
 [AWS](https://github.com/yennanliu/data_science_repo#AWS)| Intro AWS EB/RDS/EC2/Lambda/Kinesis
