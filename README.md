@@ -48,6 +48,15 @@ Reference | Comments
 
 ---
 ## Programming 
+
+### Computer Science 
+* [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu) - CS 50 course
+* [Intro to CS](https://github.com/ossu/computer-science) - OSSU CS course
+* [Introduction to Computer Networking (Stanford)](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) - Intro to Networking in CS
+* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) - NTNU's Algorithm note 
+* [CS basics](https://github.com/yennanliu/CS_basics) - My repo for Algorithm/Data structure learning (and leetcode) 
+* [Leetcode](https://github.com/yennanliu/CS_basics) - My Leetcode solutions
+
 ### Python 
 * [Python official intro](https://docs.python.org/3/tutorial/) - official python tutorial 
 * [Python central tutorial](https://www.pythoncentral.io/) - pythoncentral  tutorial
@@ -83,12 +92,6 @@ Reference | Comments
 
 ### R 
 * [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
-
-### Computer Science 
-* [CS 50](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu) - CS 50 course
-* [Intro to CS](https://github.com/ossu/computer-science) - OSSU CS course
-* [Leetcode](https://github.com/yennanliu/CS_basics) - Leetcode
-* [Introduction to Computer Networking (Stanford)](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)
 
 ---
 ## ML 
@@ -131,10 +134,6 @@ Reference | Comments
 * [A/B Testing Udacity ](https://eu.udacity.com/course/ab-testing--ud257?fbclid=IwAR0WHBVd1g-rnifuKq_cshHHM3I2K_KXrRYbLCUni0hnBHaMIAUdF5XmwZQ) - Udacity A/B test course
 * [Customer Analytics & A/B Testing in Python ](https://www.datacamp.com/courses/customer-analytics-ab-testing-in-python) - Do Customer Analytics via python
 * [Awesome AB Test Tool ](http://www.evanmiller.org/ab-testing/) - Intuitive statistical calculators, ideal for planning and analyzing A/B tests
----
-## Algorithm
-* [Algorithm note](http://www.csie.ntnu.edu.tw/~u91029/) - NTNU's Algorithm note 
-* [CS basics](https://github.com/yennanliu/CS_basics) - My repo for Algorithm/Data structure learning (and leetcode) 
 
 ---
 ## Database 
