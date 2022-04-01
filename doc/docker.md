@@ -202,9 +202,4 @@ app  bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sb
 root@e7c35ee466c5:/# which python 
 /usr/local/bin/python
 root@e7c35ee466c5:/# 
-
-
 ```
-
-
-
