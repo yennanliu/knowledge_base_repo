@@ -18,6 +18,7 @@
 </p>
 
 ## Topics 
+
 - Programming : Algorithm, Data Structure, CS basic, (python/Java/Shell/R)
 - DS basics : Statistics, ML, DL. DB 
 - DE basics : system design, cloud services, ETL, Scalability
