@@ -93,6 +93,11 @@ Reference | Comments
 ### R 
 * [R intro](https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc&utm_campaignid=897699256&utm_adgroupid=47591959831&utm_device=c&utm_keyword=r%20introduction%20tutorial&utm_matchtype=b&utm_network=g&utm_adpostion=1t1&utm_creative=245636168058&utm_targetid=kwd-350821326167&utm_loc_interest_ms=&utm_loc_physical_ms=9045901&gclid=EAIaIQobChMI86K-pKa52QIVpLXtCh17PAT4EAAYASAAEgJK9vD_BwE) - Datacamp R course
 
+### Design pattern
+* https://www.youtube.com/watch?v=eiDyK_ofPPM&list=PLC0nd42SBTaNuP4iB4L6SJlMaHE71FG6N
+* https://github.com/yennanliu/java-design-patterns
+* https://github.com/yennanliu/design-patterns-java
+
 ---
 ## ML 
 * [CS 229 Machine Learning ](https://www.coursera.org/learn/machine-learning) - Andrew Ng's ML course 
